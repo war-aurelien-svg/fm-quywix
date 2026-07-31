@@ -1,6 +1,7 @@
 export type Article = { slug: string; title: string; summary: string; author: string; date: string; category: string; image: string; body: string[] };
 
 export const newsItems: Article[] = [
+  { slug:"rashica-celina-forfaits-novembre-2026", title:"Rashica et Celina forfaits pour le rassemblement", summary:"Aurélien Quywix devra composer sans Milot Rashica ni Bersant Celina pour les rendez-vous de novembre.", author:"FM QuywiX", date:"5 novembre 2026", category:"Sélection nationale", image:"/images/aurelien-quywix-kosovo-intronisation.png", body:["À quelques jours du rassemblement de novembre, Aurélien Quywix a confirmé deux absences importantes dans son groupe : Milot Rashica et Bersant Celina sont forfaits.","Le sélectionneur devra donc réorganiser son animation offensive et s'appuyer sur les joueurs en forme, notamment Edon Zhegrova, Fisnik Asllani, Vedat Muriqi et les nouveaux convoqués.","En conférence de presse, Aurélien Quywix a insisté sur la force collective de sa sélection. La convocation de novembre offre aussi une opportunité à Emir Rashica et Meriton Korenica de s'affirmer dans le groupe."] },
   {
     slug: "kosovo-ecrase-bielorussie-quywix-2026",
     title: "Asllani porte le Kosovo en Biélorussie",

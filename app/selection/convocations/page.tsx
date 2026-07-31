@@ -7,12 +7,12 @@ type Player = { name: string; age: number; club: string; caps: number; goals: nu
 type Group = { title: string; short: string; players: Player[] };
 const p = (name: string, age: number, club: string, caps: number, goals: number): Player => ({ name, age, club, caps, goals });
 const groups: Group[] = [
-  { title: "Gardiens", short: "G", players: [p("Arjanet Muriç",27,"Ipswich",50,0),p("Amir Saipi",26,"Lugano",6,0),p("Mustafë Abdullahu",22,"KF Tirana",0,0)] },
-  { title: "Défenseurs", short: "D", players: [p("Amir Rrahmani",32,"Parthenope",74,7),p("Andi Hoti",23,"Eintracht Braunschweig",1,0),p("Albian Hajdari",23,"TSG Hoffenheim",10,0),p("Leard Sadriu",25,"Campionii FC Argeș",8,0),p("Florian Hadergjonaj",32,"Alanyaspor",47,1),p("Ibrahim Drešević",29,"FC Machida",29,1),p("Betim Fazliji",27,"St. Gallen",22,0),p("Mërgim Vojvoda",31,"Reims",74,3),p("Leart Paçarada",31,"1. FC Heidenheim",36,1)] },
-  { title: "Milieux", short: "M", players: [p("Bledian Krasniqi",25,"Zürich",9,0),p("Leon Avdullahu",22,"TSG Hoffenheim",10,1),p("Hamza Muqaj",20,"Vitesse",0,0),p("Elvis Rexhbeçaj",28,"Valencia",19,1),p("Bersant Celina",30,"AIK",48,4),p("Florent Muslija",28,"SC Freiburg",42,3)] },
-  { title: "Attaquants", short: "A", players: [p("Edon Zhegrova",27,"Juventus",52,7),p("Milot Rashica",30,"Beşiktaş",70,12),p("Fisnik Asllani",24,"TSG Hoffenheim",17,6),p("Albion Rrahmani",26,"Sparta Prague",16,6),p("Vedat Muriqi",32,"Mallorca",66,32)] }
+  { title: "Gardiens", short: "G", players: [p("Arjanet Muriç",27,"Ipswich",54,0),p("Amir Saipi",26,"Lugano",6,0),p("Mustafë Abdullahu",22,"KF Tirana",0,0)] },
+  { title: "Défenseurs", short: "D", players: [p("Amir Rrahmani",32,"Parthenope",78,7),p("Andi Hoti",23,"Eintracht Braunschweig",2,0),p("Albian Hajdari",23,"TSG Hoffenheim",13,0),p("Leard Sadriu",25,"Campionii FC Argeș",10,0),p("Florian Hadergjonaj",32,"Alanyaspor",51,1),p("Ibrahim Drešević",29,"FC Machida",32,1),p("Betim Fazliji",27,"St. Gallen",23,0),p("Mërgim Vojvoda",31,"Reims",78,3),p("Leart Paçarada",32,"1. FC Heidenheim",39,1)] },
+  { title: "Milieux", short: "M", players: [p("Bledian Krasniqi",25,"Zürich",13,0),p("Hamza Muqaj",21,"Vitesse",2,0),p("Elvis Rexhbeçaj",29,"Valencia",23,1),p("Leon Avdullahu",22,"TSG Hoffenheim",14,1),p("Florent Muslija",28,"SC Freiburg",46,5),p("Meriton Korenica",29,"CFR Cluj",13,1)] },
+  { title: "Attaquants", short: "A", players: [p("Edon Zhegrova",27,"Juventus",56,11),p("Emir Rashica",22,"Metalist 1925",0,0),p("Fisnik Asllani",24,"TSG Hoffenheim",21,8),p("Vedat Muriqi",32,"Mallorca",70,33),p("Albion Rrahmani",26,"Sparta Prague",17,6)] }
 ];
-const breaks = ["Septembre / Octobre 2026"];
+const breaks = ["Novembre 2026"];
 
 export default function ConvocationsPage() {
   const [breakDate, setBreakDate] = useState(breaks[0]);
