@@ -10,7 +10,7 @@ const matches: CalendarMatch[] = [
   { date: "Dim. 27 sept. 2026", opponent: "Biélorussie", venue: "D", score: "2 - 0", slug: "kosovo-bielorussie-2026" },
   { date: "Jeu. 1 oct. 2026", opponent: "Irlande du Nord", venue: "D", score: "1 - 1", slug: "kosovo-irlande-du-nord-2026" },
   { date: "Dim. 4 oct. 2026", opponent: "Biélorussie", venue: "E", score: "2 - 4", slug: "bielorussie-kosovo-2026", note: "Match joué en Bulgarie" },
-  { date: "Jeu. 12 nov. 2026", opponent: "Arménie", venue: "D", score: null },
+  { date: "Ven. 13 nov. 2026", opponent: "Lettonie", venue: "D", score: "1 - 0", slug: "kosovo-lettonie-novembre-2026" },
   { date: "Dim. 15 nov. 2026", opponent: "Kazakhstan", venue: "E", score: null },
 ];
 
