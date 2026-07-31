@@ -3,17 +3,17 @@ export type Article = { slug: string; title: string; summary: string; author: st
 export const newsItems: Article[] = [
   {
     slug: "kosovo-ecrase-bielorussie-quywix-2026",
-    title: "Le Kosovo frappe fort en Biélorussie",
-    summary: "Porté par un Milot Rashica étincelant, le Kosovo d'Aurélien Quywix s'est imposé 5-1 et prend seul la tête du groupe.",
+    title: "Asllani porte le Kosovo en Biélorussie",
+    summary: "Auteur d'un triplé, Fisnik Asllani a guidé le Kosovo d'Aurélien Quywix vers une victoire spectaculaire 4-2.",
     author: "FM QuywiX",
     date: "4 octobre 2026",
     category: "Ligue des Nations",
     image: "/images/quywix-banc-bielorussie-kosovo.png",
     body: [
-      "Le Kosovo a envoyé un message retentissant. Délocalisée en Bulgarie, la rencontre face à la Biélorussie a tourné à la démonstration pour les hommes d'Aurélien Quywix, vainqueurs 5-1 au Hristo Botev Stadium.",
-      "Après une ouverture du score précoce sur un but contre son camp de Leonid Hawryluk, Bledian Krasniqi a doublé la mise à la demi-heure, servi par Florian Hadergjonaj. La réduction du score d'Artem Shestyuk au retour des vestiaires n'a fait que réveiller le Kosovo.",
-      "Milot Rashica, passeur et buteur, a été le grand artisan de la réaction. Après son but à la 62e minute sur un service d'Edon Zhegrova, il a offert deux passes décisives à Amir Rrahmani, auteur d'un doublé express aux 67e et 71e minutes.",
-      "Avec 72 % de possession, 21 tirs et 15 tentatives cadrées, le Kosovo a dominé de bout en bout. Sur le banc, Aurélien Quywix et ses remplaçants ont savouré une victoire qui place la sélection seule en tête du groupe 3, avec dix points après quatre matchs."
+      "Délocalisée en Bulgarie, la rencontre face à la Biélorussie a offert un scénario spectaculaire. Le Kosovo d'Aurélien Quywix s'est imposé 4-2 au Hristo Botev Stadium et conserve seul la tête du groupe 3.",
+      "Milot Rashica a ouvert le score dès la 19e minute sur une passe de Vedat Muriqi. Mais la Biélorussie a renversé la rencontre avant la pause puis au retour des vestiaires, Ilya Shkurin frappant à deux reprises aux 41e et 46e minutes.",
+      "Le Kosovo a alors réagi avec autorité. Fisnik Asllani, servi par Florent Muslija, a égalisé à la 76e minute avant de signer un doublé à la 87e. Dans le temps additionnel, l'attaquant a complété son triplé sur une passe d'Edon Zhegrova.",
+      "Avec 64 % de possession, 24 tirs et 13 tentatives cadrées, les Kosovars ont fini par faire la différence. Sur le banc, Aurélien Quywix et ses remplaçants ont célébré une victoire majeure, qui porte la sélection à dix points après quatre journées."
     ]
   },
   {
