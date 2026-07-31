@@ -5,9 +5,11 @@ import { SelectionHeader } from "../../../components/selection-header";
 
 const matches = [
   { date: "Jeu. 24 sept. 2026", opponent: "Lettonie", venue: "E", score: "1 - 3", slug: "lettonie-kosovo-2026" },
-  { date: "Dim. 27 sept. 2026", opponent: "Biélorussie", venue: "D", score: null },
+  { date: "Dim. 27 sept. 2026", opponent: "Biélorussie", venue: "D", score: "2 - 0", slug: "kosovo-bielorussie-2026" },
   { date: "Sam. 10 oct. 2026", opponent: "Irlande du Nord", venue: "D", score: null },
   { date: "Mar. 13 oct. 2026", opponent: "Biélorussie", venue: "E", score: null, note: "Match joué en Bulgarie" },
+  { date: "Jeu. 12 nov. 2026", opponent: "Arménie", venue: "D", score: null },
+  { date: "Dim. 15 nov. 2026", opponent: "Kazakhstan", venue: "E", score: null },
 ] as const;
 
 export default function SelectionCalendarPage() {

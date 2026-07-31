@@ -2,6 +2,21 @@ export type Article = { slug: string; title: string; summary: string; author: st
 
 export const newsItems: Article[] = [
   {
+    slug: "zeghrova-double-kosovo-bielorussie-2026",
+    title: "Le doublé de Zhegrova lance le Kosovo",
+    summary: "Auteur d'un doublé en douze minutes, Edon Zhegrova a porté le Kosovo vers un succès convaincant contre la Biélorussie (2-0).",
+    author: "FM QuywiX",
+    date: "27 septembre 2026",
+    category: "Ligue des Nations",
+    image: "/images/zeghrova-double-kosovo-bielorussie.png",
+    body: [
+      "Trois jours après son succès en Lettonie, le Kosovo a confirmé à domicile. Les hommes d'Aurélien Quywix se sont imposés 2-0 face à la Biélorussie, dans une rencontre largement dominée au Olympic Stadium Adem Jashari.",
+      "Edon Zhegrova a été le grand artisan de cette victoire. Servi par Florent Muslija à la 10e minute, l'ailier a ouvert le score avant de s'offrir un doublé douze minutes plus tard sur une passe de Florian Hadergjonaj.",
+      "Avec 74 % de possession, dix tirs dont sept cadrés et dix corners, le Kosovo a installé son jeu dès le coup d'envoi. La Biélorussie n'a jamais réellement réussi à inquiéter l'arrière-garde kosovare.",
+      "Élu homme du match avec une note de 8,49, Zhegrova incarne ce début de rassemblement réussi. Après deux journées, Aurélien Quywix peut apprécier la réponse de son groupe et préparer la suite avec sérénité."
+    ]
+  },
+  {
     slug: "kosovo-victoire-lettonie-zeghrova-2026",
     title: "Le Kosovo démarre fort en Lettonie",
     summary: "Porté par un Edon Zhegrova buteur dès la 6e minute, le Kosovo s'est imposé 3-1 à Riga pour le premier match d'Aurélien Quywix.",
