@@ -12,7 +12,7 @@ const groups: Group[] = [
   { title: "Milieux", short: "M", players: [p("Bledian Krasniqi",25,"Zürich",9,0),p("Leon Avdullahu",22,"TSG Hoffenheim",10,1),p("Hamza Muqaj",20,"Vitesse",0,0),p("Elvis Rexhbeçaj",28,"Valencia",19,1),p("Bersant Celina",30,"AIK",48,4),p("Florent Muslija",28,"SC Freiburg",42,3)] },
   { title: "Attaquants", short: "A", players: [p("Edon Zhegrova",27,"Juventus",52,7),p("Milot Rashica",30,"Beşiktaş",70,12),p("Fisnik Asllani",24,"TSG Hoffenheim",17,6),p("Albion Rrahmani",26,"Sparta Prague",16,6),p("Vedat Muriqi",32,"Mallorca",66,32)] }
 ];
-const breaks = ["Septembre / Octobre 2026", "Juin 2026"];
+const breaks = ["Septembre / Octobre 2026"];
 
 export default function ConvocationsPage() {
   const [breakDate, setBreakDate] = useState(breaks[0]);

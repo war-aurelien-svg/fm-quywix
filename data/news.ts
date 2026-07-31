@@ -2,6 +2,21 @@ export type Article = { slug: string; title: string; summary: string; author: st
 
 export const newsItems: Article[] = [
   {
+    slug: "kosovo-victoire-lettonie-zeghrova-2026",
+    title: "Le Kosovo démarre fort en Lettonie",
+    summary: "Porté par un Edon Zhegrova buteur dès la 6e minute, le Kosovo s'est imposé 3-1 à Riga pour le premier match d'Aurélien Quywix.",
+    author: "FM QuywiX",
+    date: "24 septembre 2026",
+    category: "Ligue des Nations",
+    image: "/images/zeghrova-but-lettonie-kosovo.png",
+    body: [
+      "Le premier match d'Aurélien Quywix à la tête du Kosovo restera comme une soirée de référence. À Riga, ses joueurs ont signé une victoire nette et maîtrisée face à la Lettonie (1-3), pour lancer idéalement leur campagne de Ligue des Nations.",
+      "Edon Zhegrova a donné le ton dès la 6e minute. Trouvé dans un bon tempo par Florian Hadergjonaj, l'ailier a ouvert le score et libéré son équipe. La Lettonie a bien réagi par Raimonds Krollis à la 15e minute, mais le Kosovo n'a jamais perdu le fil.",
+      "Fisnik Asllani a redonné l'avantage aux visiteurs à la 24e minute, avant que Florent Muslija ne scelle le succès à la 87e sur une passe de Milot Rashica. Avec vingt tirs, dix cadrés et 2,47 xG, le Kosovo a largement dominé les débats.",
+      "Florian Hadergjonaj, élu homme du match avec une note de 7,88, a parfaitement incarné cette première réussie. Le Kosovo peut désormais aborder la suite de la fenêtre internationale avec confiance."
+    ]
+  },
+  {
     slug: "aurelien-quywix-devoile-premiere-liste-kosovo",
     title: "Aurélien Quywix dévoile sa première liste avec le Kosovo",
     summary: "Le sélectionneur kosovar a convoqué 23 joueurs pour quatre rendez-vous de Ligue des Nations, avec une place accordée à la jeunesse.",
