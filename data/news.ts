@@ -2,6 +2,21 @@ export type Article = { slug: string; title: string; summary: string; author: st
 
 export const newsItems: Article[] = [
   {
+    slug: "rashica-delivre-kosovo-irlande-nord-2026",
+    title: "Rashica délivre le Kosovo dans le choc du groupe",
+    summary: "Entré à l'heure de jeu, Milot Rashica a arraché l'égalisation à la 88e minute contre l'Irlande du Nord (1-1).",
+    author: "FM QuywiX",
+    date: "1 octobre 2026",
+    category: "Ligue des Nations",
+    image: "/images/rashica-egalisation-irlande-nord.png",
+    body: [
+      "Le Stadiumi Fadil Vokrri a vécu une soirée sous tension. Kosovo et Irlande du Nord, les deux équipes en tête du groupe avec six points sur six avant le coup d'envoi, se retrouvaient pour un choc déjà crucial dans la course à la première place.",
+      "Les visiteurs ont pris l'avantage très tôt, Cameron Boyd-Munce trouvant la faille dès la 8e minute. Malgré une possession légèrement favorable et neuf corners obtenus, le Kosovo a longtemps buté sur une équipe nord-irlandaise particulièrement solide.",
+      "Aurélien Quywix a alors lancé Milot Rashica à l'heure de jeu. Le choix a fini par transformer le match : à la 88e minute, l'ailier a repris le service de Leart Paçarada pour faire exploser le stade et remettre les deux équipes à égalité.",
+      "Ce nul (1-1) laisse le suspense entier en tête du groupe. Dans un match où l'Irlande du Nord a pourtant affiché davantage de tirs et un xG supérieur, le Kosovo a trouvé les ressources pour ne pas céder dans ce rendez-vous majeur."
+    ]
+  },
+  {
     slug: "zeghrova-double-kosovo-bielorussie-2026",
     title: "Le doublé de Zhegrova lance le Kosovo",
     summary: "Auteur d'un doublé en douze minutes, Edon Zhegrova a porté le Kosovo vers un succès convaincant contre la Biélorussie (2-0).",
