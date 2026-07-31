@@ -2,6 +2,21 @@ export type Article = { slug: string; title: string; summary: string; author: st
 
 export const newsItems: Article[] = [
   {
+    slug: "kosovo-ecrase-bielorussie-quywix-2026",
+    title: "Le Kosovo frappe fort en Biélorussie",
+    summary: "Porté par un Milot Rashica étincelant, le Kosovo d'Aurélien Quywix s'est imposé 5-1 et prend seul la tête du groupe.",
+    author: "FM QuywiX",
+    date: "4 octobre 2026",
+    category: "Ligue des Nations",
+    image: "/images/quywix-banc-bielorussie-kosovo.png",
+    body: [
+      "Le Kosovo a envoyé un message retentissant. Délocalisée en Bulgarie, la rencontre face à la Biélorussie a tourné à la démonstration pour les hommes d'Aurélien Quywix, vainqueurs 5-1 au Hristo Botev Stadium.",
+      "Après une ouverture du score précoce sur un but contre son camp de Leonid Hawryluk, Bledian Krasniqi a doublé la mise à la demi-heure, servi par Florian Hadergjonaj. La réduction du score d'Artem Shestyuk au retour des vestiaires n'a fait que réveiller le Kosovo.",
+      "Milot Rashica, passeur et buteur, a été le grand artisan de la réaction. Après son but à la 62e minute sur un service d'Edon Zhegrova, il a offert deux passes décisives à Amir Rrahmani, auteur d'un doublé express aux 67e et 71e minutes.",
+      "Avec 72 % de possession, 21 tirs et 15 tentatives cadrées, le Kosovo a dominé de bout en bout. Sur le banc, Aurélien Quywix et ses remplaçants ont savouré une victoire qui place la sélection seule en tête du groupe 3, avec dix points après quatre matchs."
+    ]
+  },
+  {
     slug: "rashica-delivre-kosovo-irlande-nord-2026",
     title: "Rashica délivre le Kosovo dans le choc du groupe",
     summary: "Entré à l'heure de jeu, Milot Rashica a arraché l'égalisation à la 88e minute contre l'Irlande du Nord (1-1).",
