@@ -30,7 +30,7 @@ const calendars: Record<"2026" | "2027", CalendarYear> = {
       { date: "Jeu. 1 oct. 2026", opponent: "Irlande du Nord", venue: "D", score: "1 - 1", competition: "Ligue des Nations C", slug: "kosovo-irlande-du-nord-2026" },
       { date: "Dim. 4 oct. 2026", opponent: "Biélorussie", venue: "E", score: "2 - 4", competition: "Ligue des Nations C", slug: "bielorussie-kosovo-2026", note: "Match joué en Bulgarie" },
       { date: "Ven. 13 nov. 2026", opponent: "Lettonie", venue: "D", score: "1 - 0", competition: "Ligue des Nations C", slug: "kosovo-lettonie-novembre-2026" },
-      { date: "Dim. 15 nov. 2026", opponent: "Kazakhstan", venue: "E", score: null, competition: "Match international" },
+      { date: "Lun. 16 nov. 2026", opponent: "Irlande du Nord", venue: "E", score: "1 - 1", competition: "Ligue des Nations C", slug: "irlande-du-nord-kosovo-novembre-2026" },
     ],
   },
   "2027": {
