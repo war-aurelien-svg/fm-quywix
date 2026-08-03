@@ -2,6 +2,23 @@ export type Article = { slug: string; title: string; summary: string; author: st
 
 export const newsItems: Article[] = [
   {
+    slug: "aurelien-quywix-courtise-entretien-agim-ademi-2026",
+    title: "Aurélien Quywix courtisé, Agim Ademi ouvre la porte à un double projet",
+    summary: "Le président de la Fédération kosovare s’est entretenu avec son sélectionneur au sujet du manque de temps de jeu de plusieurs cadres et de l’intérêt manifesté par cinq clubs.",
+    author: "FM QuywiX",
+    date: "20 décembre 2026",
+    category: "Sélection nationale",
+    image: "/images/quywix-agim-ademi-entretien-decembre-2026.png",
+    body: [
+      "À quelques jours des fêtes, Aurélien Quywix a rencontré Agim Ademi au siège de la Fédération de Football du Kosovo. Le sélectionneur et le président ont longuement échangé sur la préparation des qualifications à l’Euro 2028, mais aussi sur une difficulté qui préoccupe de plus en plus le staff : le manque de temps de jeu de plusieurs cadres en club.",
+      "Certains internationaux sont peu utilisés au quotidien, une situation qui ralentit leur progression et fait craindre un manque de rythme lors des prochains rassemblements. Pour Agim Ademi, la question dépasse les performances individuelles : elle touche directement la capacité de la sélection à aborder les fenêtres internationales avec un groupe compétitif.",
+      "« Nous avons des joueurs importants qui ne jouent pas suffisamment. Cela peut freiner leur développement et nous exposer à un déficit de forme lorsque nous les retrouvons. Notre priorité reste la sélection, mais nous devons réfléchir à toutes les solutions capables d’aider nos internationaux », a expliqué le président kosovar au cours de l’entretien.",
+      "Dans ce contexte, Agim Ademi n’écarte pas l’idée de voir Quywix reprendre un poste d’entraîneur en parallèle de ses fonctions de sélectionneur. Une présence quotidienne dans un club pourrait lui permettre d’offrir du temps de jeu à quelques Kosovars, à condition de préserver l’équilibre de la sélection et d’éviter tout conflit entre les deux missions.",
+      "Le travail accompli avec le Kosovo, premier et invaincu de son groupe de Ligue des Nations, a attiré plusieurs prétendants. Nantes, Lorient, Kasımpaşa, Anderlecht et Newcastle, tous engagés dans une lutte délicate dans leur championnat respectif, suivent la situation du technicien et envisageraient de lui confier une mission de maintien.",
+      "Aurélien Quywix n’a encore pris aucune décision. Attaché au projet kosovar et déjà tourné vers le premier match des qualifications contre Malte, il étudiera uniquement une proposition compatible avec son mandat international. Les prochaines semaines diront si cette réflexion débouche sur un retour sur un banc de club."
+    ]
+  },
+  {
     slug: "kosovo-groupe-j-qualifications-euro-2028",
     title: "Euro 2028 : le Kosovo connaît ses adversaires",
     summary: "Versé dans le groupe J avec le Danemark, la Slovénie, la Lituanie et Malte, le Kosovo abordera les qualifications avec l’ambition de bousculer la hiérarchie.",
