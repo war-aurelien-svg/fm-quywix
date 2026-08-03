@@ -19,7 +19,7 @@ export default async function SelectionArticlePage({ params }: { params: Promise
         <h1 className="mt-3 max-w-3xl text-4xl font-semibold leading-tight tracking-tight sm:text-5xl">{article.title}</h1>
         <p className="mt-5 max-w-2xl text-lg leading-8 text-slate-400">{article.summary}</p>
         <div className="mt-6 flex items-center gap-3 text-sm"><span className="grid h-9 w-9 place-items-center rounded-full bg-violet-400/15 text-xs font-bold text-violet-200">QX</span><div><p className="font-semibold">{article.author}</p><p className="flex items-center gap-1 text-xs text-slate-500"><Clock3 size={12}/>{article.date}</p></div></div>
-        <img src={article.image} alt="Aurélien Quywix lors de sa présentation comme sélectionneur du Kosovo" className="mt-8 aspect-[16/8] w-full rounded-3xl object-cover"/>
+        <img src={article.image} alt={`Illustration de l’article : ${article.title}`} className="mt-8 h-auto w-full rounded-3xl bg-white/[.03] object-contain"/>
         <div className="mx-auto mt-9 max-w-2xl space-y-6 text-[17px] leading-8 text-slate-300">{article.body.map(paragraph=><p key={paragraph}>{paragraph}</p>)}</div>
       </article>
     </div>
