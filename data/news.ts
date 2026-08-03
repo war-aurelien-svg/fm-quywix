@@ -2,6 +2,22 @@ export type Article = { slug: string; title: string; summary: string; author: st
 
 export const newsItems: Article[] = [
   {
+    slug: "liste-kosovo-mars-2027-qualifications-euro",
+    title: "Les 23 du Kosovo pour lancer la route vers l’Euro 2028",
+    summary: "Sans Arjanet Muriç mais avec les retours de Milot Rashica et Bersant Celina, Aurélien Quywix a dévoilé son groupe pour affronter Malte et la Slovénie.",
+    author: "FM QuywiX",
+    date: "18 mars 2027",
+    category: "Qualifications Euro 2028",
+    image: "/images/kosovo-liste-mars-2027.png",
+    body: [
+      "L’heure des qualifications à l’Euro 2028 a sonné pour le Kosovo. Aurélien Quywix a convoqué vingt-trois joueurs pour la réception de Malte, le 26 mars, puis le déplacement en Slovénie trois jours plus tard.",
+      "La principale absence concerne Arjanet Muriç. Indisponible pour ce premier rassemblement de l’année, le gardien titulaire laisse sa place à Visar Bekaj. Le portier du KF Tirana rejoint Amir Saipi et Mustafë Abdullahu dans le groupe des gardiens.",
+      "Le sélectionneur peut en revanche compter sur deux retours importants. Milot Rashica, fort de 74 sélections et 13 buts, réintègre le secteur offensif, tout comme Bersant Celina. Les deux cadres avaient manqué le rassemblement de novembre et apportent une expérience précieuse au moment d’ouvrir la campagne européenne.",
+      "Autour du capitaine Amir Rrahmani, la défense conserve une forte continuité avec Hajdari, Fazliji, Vojvoda, Paçarada et Hadergjonaj. Au milieu, Hamza Muqaj est récompensé après sa passe décisive en Irlande du Nord, tandis qu’Edon Zhegrova et Florent Muslija restent deux des principales sources de créativité.",
+      "Vedat Muriqi conduira l’attaque aux côtés de Fisnik Asllani et Albion Rrahmani. Le Kosovo veut réussir son entrée contre Malte à Pristina avant un premier test majeur sur le terrain slovène, face à un concurrent direct annoncé dans le groupe J."
+    ]
+  },
+  {
     slug: "aurelien-quywix-courtise-entretien-agim-ademi-2026",
     title: "Aurélien Quywix courtisé, Agim Ademi ouvre la porte à un double projet",
     summary: "Le président de la Fédération kosovare s’est entretenu avec son sélectionneur au sujet du manque de temps de jeu de plusieurs cadres et de l’intérêt manifesté par cinq clubs.",
