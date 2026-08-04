@@ -2,6 +2,23 @@ export type Article = { slug: string; title: string; summary: string; author: st
 
 export const newsItems: Article[] = [
   {
+    slug: "kosovo-malte-5-1-zhegrova-cheville-2027",
+    title: "Le Kosovo frappe fort, mais retient son souffle pour Zhegrova",
+    summary: "Porté par les doublés de Milot Rashica et Elvis Rexhbeçaj, le Kosovo a écrasé Malte 5-1 pour lancer ses qualifications, malgré la sortie sur blessure d’Edon Zhegrova.",
+    author: "FM QuywiX",
+    date: "26 mars 2027",
+    category: "Qualifications Euro 2028",
+    image: "/images/zhegrova-cheville-kosovo-malte-2027.png",
+    body: [
+      "Le Kosovo n’a pas manqué son entrée dans les qualifications à l’Euro 2028. À Pristina, les hommes d’Aurélien Quywix ont dominé Malte 5-1 au terme d’une rencontre maîtrisée dès les premières minutes.",
+      "Elvis Rexhbeçaj a ouvert le score dès la 2e minute sur un service de Florian Hadergjonaj. Edon Zhegrova a doublé la mise à la 17e, avant que Milot Rashica ne frappe deux fois en dix minutes, chaque fois servi par Mërgim Vojvoda. À la demi-heure de jeu, le Kosovo menait déjà 4-0.",
+      "La seule ombre de cette première période est venue de Zhegrova. Buteur et très actif sur son côté, l’ailier a dû quitter le terrain juste avant la pause après s’être fait mal à la cheville. Il a regagné le banc accompagné par le staff médical, laissant planer une inquiétude avant le déplacement en Slovénie.",
+      "Malte a réduit l’écart à la 55e minute par Jodi Jones, servi par Ilyas Chouaref. Le Kosovo a néanmoins conservé le contrôle du ballon et Rexhbeçaj a refermé la soirée dans le temps additionnel, encore sur une passe de Hadergjonaj.",
+      "Avec 70 % de possession, 17 tirs, 11 cadrés et 92 % de passes réussies, la sélection kosovare a imposé son rythme. Milot Rashica, auteur d’un doublé et noté 8,97, a été désigné homme du match pour son retour en sélection.",
+      "Ce large succès place idéalement le Kosovo avant son premier grand test du groupe J, le 29 mars en Slovénie. La disponibilité de Zhegrova sera désormais le principal sujet des prochaines heures."
+    ]
+  },
+  {
     slug: "liste-kosovo-mars-2027-qualifications-euro",
     title: "Les 23 du Kosovo pour lancer la route vers l’Euro 2028",
     summary: "Sans Arjanet Muriç mais avec les retours de Milot Rashica et Bersant Celina, Aurélien Quywix a dévoilé son groupe pour affronter Malte et la Slovénie.",

@@ -37,7 +37,7 @@ const calendars: Record<"2026" | "2027", CalendarYear> = {
     eyebrow: "Qualifications Euro 2028 · Groupe J",
     description: "Campagne de qualification du Kosovo pour l’Euro 2028.",
     matches: [
-      { date: "Ven. 26 mars 2027 · 19:30", opponent: "Malte", venue: "D", score: null, competition: "Qualifications Euro 2028" },
+      { date: "Ven. 26 mars 2027 · 19:30", opponent: "Malte", venue: "D", score: "5 - 1", competition: "Qualifications Euro 2028", slug: "kosovo-malte-2027" },
       { date: "Lun. 29 mars 2027 · 19:30", opponent: "Slovénie", venue: "E", score: null, competition: "Qualifications Euro 2028" },
       { date: "Jeu. 10 juin 2027 · 19:30", opponent: "Danemark", venue: "D", score: null, competition: "Qualifications Euro 2028" },
       { date: "Dim. 13 juin 2027 · 19:30", opponent: "Lituanie", venue: "E", score: null, competition: "Qualifications Euro 2028" },
