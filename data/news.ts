@@ -2,6 +2,23 @@ export type Article = { slug: string; title: string; summary: string; author: st
 
 export const newsItems: Article[] = [
   {
+    slug: "liste-kosovo-juin-2027-muric-sahiti",
+    title: "Murić revient, Sahiti retrouve le Kosovo",
+    summary: "Aurélien Quywix a convoqué 23 joueurs pour affronter le Danemark et la Lituanie. Arijanet Murić retrouve le groupe, Emir Sahiti connaît sa première convocation sous le sélectionneur et Ibrahim Drešević est écarté.",
+    author: "FM QuywiX",
+    date: "4 juin 2027",
+    category: "Qualifications Euro 2028",
+    image: "/images/aurelien-quywix-kosovo-intronisation.png",
+    body: [
+      "Aurélien Quywix a dévoilé sa liste de vingt-trois joueurs pour le deuxième rassemblement des qualifications à l’Euro 2028. Le Kosovo recevra le Danemark le 10 juin avant de se déplacer en Lituanie trois jours plus tard.",
+      "Absent en mars, Arijanet Murić fait son retour. Le gardien d’Ipswich, fort de 56 sélections, retrouve une concurrence composée d’Amir Saipi et Mustafë Abdullahu. Son expérience sera précieuse face au favori danois du groupe J.",
+      "La principale décision concerne Ibrahim Drešević. Le défenseur central n’a pas été retenu après le rassemblement de mars. Quywix conserve huit défenseurs autour du capitaine Amir Rrahmani, avec notamment Albian Hajdari, Andi Hoti, Betim Fazliji et Mërgim Vojvoda.",
+      "Emir Sahiti effectue quant à lui son retour en sélection. Déjà international à sept reprises, le joueur du Hamburger SV est appelé pour la première fois depuis l’arrivée d’Aurélien Quywix. Sa polyvalence et sa capacité à occuper le couloir doivent offrir une solution supplémentaire au staff.",
+      "Le reste du secteur offensif conserve ses principaux cadres. Edon Zhegrova, Milot Rashica, Florent Muslija et Bersant Celina accompagneront Vedat Muriqi, Fisnik Asllani et Albion Rrahmani. Hamza Muqaj et Leon Avdullahu poursuivent également leur progression au sein du groupe.",
+      "Après la victoire contre Malte puis la lourde défaite en Slovénie, le Kosovo doit rebondir. La réception du Danemark constituera un test majeur, avant un déplacement en Lituanie où les hommes de Quywix devront viser un résultat positif."
+    ]
+  },
+  {
     slug: "slovenie-kosovo-deception-3-0-2027",
     title: "Le Kosovo puni à Ljubljana malgré ses occasions",
     summary: "Battus 3-0 par la Slovénie, les Kosovars quittent Ljubljana avec une profonde déception après avoir pourtant tiré davantage et produit plus de xG que leur adversaire.",
