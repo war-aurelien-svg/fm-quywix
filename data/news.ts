@@ -2,6 +2,23 @@ export type Article = { slug: string; title: string; summary: string; author: st
 
 export const newsItems: Article[] = [
   {
+    slug: "lituanie-kosovo-pacarada-coup-franc-2027",
+    title: "Paçarada libère un Kosovo qui sait aussi souffrir",
+    summary: "Moins flamboyant dans le jeu, le Kosovo s’impose 2-1 en Lituanie grâce à une tête d’Albian Hajdari et un coup franc magistral de Leart Paçarada à 30 mètres.",
+    author: "FM QuywiX",
+    date: "13 juin 2027",
+    category: "Qualifications Euro 2028",
+    image: "/images/pacarada-coup-franc-lituanie-kosovo-2027.png",
+    body: [
+      "Le Kosovo termine sa trêve de juin avec six points sur six. Trois jours après avoir fait tomber le Danemark dans les dernières minutes, les hommes d’Aurélien Quywix ont arraché une victoire 2-1 en Lituanie au terme d’un match beaucoup plus difficile que ne le suggérait leur domination territoriale.",
+      "Avec 63 % de possession, le Kosovo a largement contrôlé le ballon sans retrouver la fluidité offensive affichée contre Malte. Les visiteurs n’ont cadré que quatre de leurs onze tirs et se sont longtemps heurtés à un bloc lituanien discipliné, agressif dans les duels et dangereux en transition.",
+      "La Lituanie a même ouvert le score à la 50e minute par Modestas Vorobjovas, servi par Gvidas Gineitis. La réaction kosovare a toutefois été immédiate. Deux minutes plus tard, Albian Hajdari a surgi dans la surface pour reprendre de la tête un corner de Leon Avdullahu et remettre les deux équipes à égalité.",
+      "Le moment décisif est arrivé à la 68e minute. Sur un coup franc obtenu à près de 30 mètres, Leart Paçarada a déclenché une frappe directe exceptionnelle qui a trompé le gardien lituanien. Auteur du but de la victoire et solide dans son couloir, il a été désigné homme du match avec une note de 8,04.",
+      "Le Kosovo a ensuite dû s’accrocher pour conserver son avantage. La sélection a moins séduit offensivement pendant cette trêve, mais elle a démontré une autre qualité : sa capacité à gagner dans la douleur. Contre le Danemark comme en Lituanie, elle a trouvé les ressources pour faire basculer un match serré.",
+      "Avec neuf points après quatre rencontres, le Kosovo prend la tête du groupe J devant la Slovénie et le Danemark. Le contenu devra encore progresser, mais cette double victoire place la sélection dans une position idéale avant la reprise des qualifications en septembre."
+    ]
+  },
+  {
     slug: "kosovo-danemark-muric-muriqi-2027",
     title: "Murić infranchissable, Muriqi renverse le Danemark",
     summary: "Héroïque face au favori du groupe J, le Kosovo s’impose 1-0 grâce à Arijanet Murić et au but tardif de Vedat Muriqi, entré neuf minutes plus tôt.",
