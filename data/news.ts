@@ -2,6 +2,23 @@ export type Article = { slug: string; title: string; summary: string; author: st
 
 export const newsItems: Article[] = [
   {
+    slug: "slovenie-kosovo-deception-3-0-2027",
+    title: "Le Kosovo puni à Ljubljana malgré ses occasions",
+    summary: "Battus 3-0 par la Slovénie, les Kosovars quittent Ljubljana avec une profonde déception après avoir pourtant tiré davantage et produit plus de xG que leur adversaire.",
+    author: "FM QuywiX",
+    date: "29 mars 2027",
+    category: "Qualifications Euro 2028",
+    image: "/images/deception-kosovo-slovenie-2027.png",
+    body: [
+      "Trois jours après son large succès contre Malte, le Kosovo a subi un brutal retour sur terre à Ljubljana. La Slovénie s’est imposée 3-0 au Stadion Stožice et prend un avantage important dans la lutte annoncée entre les deux sélections.",
+      "Tjaš Begić a ouvert le score à la 28e minute sur une passe de Jan Mlakar. Au retour des vestiaires, Benjamin Šeško a doublé la mise, servi par Tomi Horvat, avant d’offrir à son tour le troisième but à Timi Svetlin à la 66e minute.",
+      "Le résultat est d’autant plus difficile à accepter pour les joueurs d’Aurélien Quywix que le Kosovo n’a pas été dominé dans le jeu. Avec 51 % de possession, 18 tirs contre 15, dix corners et 1,75 xG contre 1,39, les visiteurs ont produit suffisamment pour espérer un tout autre scénario.",
+      "L’efficacité a cependant fait toute la différence. Les sept tirs cadrés kosovars n’ont pas trompé Jan Oblak, tandis que la Slovénie a converti trois de ses neuf tentatives cadrées. Privé de Zhegrova, blessé contre Malte, le secteur offensif a manqué de précision dans les moments clés.",
+      "Au coup de sifflet final, les visages fermés et les regards baissés traduisaient la déception d’un groupe conscient d’avoir laissé passer une occasion. Le capitaine et les cadres ont rapidement rassemblé leurs partenaires, avec la volonté de transformer cette soirée en leçon.",
+      "Le Kosovo reste à trois points après deux journées et devra réagir en juin, lors de la réception du Danemark. Face au favori du groupe J, la marge d’erreur sera déjà réduite."
+    ]
+  },
+  {
     slug: "kosovo-malte-5-1-zhegrova-cheville-2027",
     title: "Le Kosovo frappe fort, mais retient son souffle pour Zhegrova",
     summary: "Porté par les doublés de Milot Rashica et Elvis Rexhbeçaj, le Kosovo a écrasé Malte 5-1 pour lancer ses qualifications, malgré la sortie sur blessure d’Edon Zhegrova.",
