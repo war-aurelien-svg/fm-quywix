@@ -39,7 +39,7 @@ const calendars: Record<"2026" | "2027", CalendarYear> = {
     matches: [
       { date: "Ven. 26 mars 2027 · 19:30", opponent: "Malte", venue: "D", score: "5 - 1", competition: "Qualifications Euro 2028", slug: "kosovo-malte-2027" },
       { date: "Lun. 29 mars 2027 · 19:30", opponent: "Slovénie", venue: "E", score: "3 - 0", competition: "Qualifications Euro 2028", slug: "slovenie-kosovo-2027" },
-      { date: "Jeu. 10 juin 2027 · 19:30", opponent: "Danemark", venue: "D", score: null, competition: "Qualifications Euro 2028" },
+      { date: "Jeu. 10 juin 2027 · 19:30", opponent: "Danemark", venue: "D", score: "1 - 0", competition: "Qualifications Euro 2028", slug: "kosovo-danemark-2027" },
       { date: "Dim. 13 juin 2027 · 19:30", opponent: "Lituanie", venue: "E", score: null, competition: "Qualifications Euro 2028" },
       { date: "Mar. 28 sept. 2027 · 19:30", opponent: "Slovénie", venue: "D", score: null, competition: "Qualifications Euro 2028" },
       { date: "Sam. 2 oct. 2027 · 19:30", opponent: "Malte", venue: "E", score: null, competition: "Qualifications Euro 2028" },

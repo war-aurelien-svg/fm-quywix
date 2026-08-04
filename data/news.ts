@@ -2,6 +2,23 @@ export type Article = { slug: string; title: string; summary: string; author: st
 
 export const newsItems: Article[] = [
   {
+    slug: "kosovo-danemark-muric-muriqi-2027",
+    title: "Murić infranchissable, Muriqi renverse le Danemark",
+    summary: "Héroïque face au favori du groupe J, le Kosovo s’impose 1-0 grâce à Arijanet Murić et au but tardif de Vedat Muriqi, entré neuf minutes plus tôt.",
+    author: "FM QuywiX",
+    date: "10 juin 2027",
+    category: "Qualifications Euro 2028",
+    image: "/images/muric-muriqi-kosovo-danemark-2027.png",
+    body: [
+      "Le Kosovo tient l’un des plus grands succès de son histoire récente. À Pristina, les hommes d’Aurélien Quywix ont fait tomber le Danemark, favori du groupe J, sur le score de 1-0 au terme d’une rencontre longtemps dominée par les visiteurs.",
+      "De retour dans le but kosovar, Arijanet Murić a livré une prestation exceptionnelle. Le Danemark a tenté sa chance à quatorze reprises, dont six tirs cadrés, mais le gardien d’Ipswich a tout repoussé. Serein dans ses sorties et décisif sur sa ligne, il a maintenu son équipe en vie jusqu’au bout et a logiquement été désigné homme du match avec une note de 7,85.",
+      "Aurélien Quywix a attendu la 80e minute pour lancer Vedat Muriqi. Le meilleur buteur de l’histoire de la sélection n’a eu besoin que de neuf minutes pour faire basculer la soirée. Servi par Bledian Krasniqi à la 89e, l’attaquant a inscrit l’unique but du match et son 35e sous le maillot du Kosovo.",
+      "Les chiffres racontent la pression danoise : 51 % de possession, 14 tirs contre 6 et 0,93 xG contre 0,33. Mais la discipline du bloc kosovar, l’engagement défensif et les arrêts de Murić ont compensé cet écart. Le Kosovo a su souffrir avant de saisir sa chance au moment idéal.",
+      "Au coup de sifflet final, Murić et Muriqi se sont longuement félicités devant les tribunes. Le gardien avait préservé le nul pendant 89 minutes ; le buteur avait offert la victoire. L’image résume une soirée où les deux cadres ont assumé leur statut.",
+      "Trois mois après la déception de Ljubljana, le Kosovo répond de la plus belle des manières et relance totalement sa campagne. Il devra maintenant confirmer le 13 juin en Lituanie."
+    ]
+  },
+  {
     slug: "liste-kosovo-juin-2027-muric-sahiti",
     title: "Murić revient, Sahiti retrouve le Kosovo",
     summary: "Aurélien Quywix a convoqué 23 joueurs pour affronter le Danemark et la Lituanie. Arijanet Murić retrouve le groupe, Emir Sahiti connaît sa première convocation sous le sélectionneur et Ibrahim Drešević est écarté.",
