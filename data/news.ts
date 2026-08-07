@@ -42,7 +42,7 @@ export const newsItems: Article[] = [
     author: "FM QuywiX",
     date: "4 juin 2027",
     category: "Qualifications Euro 2028",
-    image: "/images/aurelien-quywix-kosovo-intronisation.png",
+    image: "/images/kosovo-liste-juin-2027.svg",
     body: [
       "Aurélien Quywix a dévoilé sa liste de vingt-trois joueurs pour le deuxième rassemblement des qualifications à l’Euro 2028. Le Kosovo recevra le Danemark le 10 juin avant de se déplacer en Lituanie trois jours plus tard.",
       "Absent en mars, Arijanet Murić fait son retour. Le gardien d’Ipswich, fort de 56 sélections, retrouve une concurrence composée d’Amir Saipi et Mustafë Abdullahu. Son expérience sera précieuse face au favori danois du groupe J.",

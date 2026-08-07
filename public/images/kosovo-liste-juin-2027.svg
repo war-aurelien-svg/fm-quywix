@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1350" viewBox="0 0 1200 1350" role="img" aria-labelledby="title desc">
+  <title id="title">Les 23 joueurs du Kosovo convoqués en juin 2027</title>
+  <desc id="desc">Publication de la Fédération de Football du Kosovo datée du 4 juin 2027.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071b3b"/>
+      <stop offset="0.55" stop-color="#04152f"/>
+      <stop offset="1" stop-color="#020a19"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="80%" cy="8%" r="70%">
+      <stop offset="0" stop-color="#1764c0" stop-opacity=".34"/>
+      <stop offset="1" stop-color="#1764c0" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000" flood-opacity=".35"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="1350" fill="url(#bg)"/>
+  <rect width="1200" height="1350" fill="url(#glow)"/>
+  <rect x="30" y="30" width="1140" height="1290" rx="34" fill="none" stroke="#e8b84f" stroke-width="3"/>
+
+  <g transform="translate(78 70)" filter="url(#shadow)">
+    <path d="M0 0h112v126c0 39-24 68-56 84C24 194 0 165 0 126Z" fill="#073c89" stroke="#e8b84f" stroke-width="6"/>
+    <text x="56" y="39" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="25" font-weight="800">FFK</text>
+    <path d="M29 79 43 68l15 8 15-8 14 11-8 38-21 18-21-18Z" fill="#e8b84f"/>
+    <circle cx="56" cy="151" r="25" fill="#fff"/>
+    <path d="m39 146 17-13 17 13-6 21H45Z" fill="#073c89"/>
+  </g>
+
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="230" y="112" fill="#fff" font-size="40" font-weight="800">Fédération de Football du Kosovo</text>
+    <text x="230" y="157" fill="#a9b6ca" font-size="27">@FFK_KS · 4 juin 2027</text>
+    <circle cx="972" cy="99" r="18" fill="#e8b84f"/>
+    <path d="m963 99 6 6 12-15" fill="none" stroke="#071b3b" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M230 192H1090" stroke="#e8b84f" stroke-width="2" opacity=".75"/>
+
+    <text x="78" y="270" fill="#fff" font-size="46" font-weight="800">Les 23 pour poursuivre la route vers l’Euro</text>
+    <text x="78" y="324" fill="#e8b84f" font-size="29" font-weight="700">Danemark à Pristina · déplacement en Lituanie</text>
+
+    <g transform="translate(78 377)">
+      <rect width="1044" height="172" rx="22" fill="#ffffff" fill-opacity=".045" stroke="#ffffff" stroke-opacity=".09"/>
+      <circle cx="57" cy="62" r="34" fill="#e8b84f" fill-opacity=".12" stroke="#e8b84f" stroke-width="2"/>
+      <path d="M47 72V49c0-7 10-7 10 0v13-21c0-7 10-7 10 0v21-16c0-7 10-7 10 0v27c0 20-12 29-27 29-12 0-21-8-21-20V65c0-7 10-7 10 0v12" fill="none" stroke="#e8b84f" stroke-width="4" stroke-linecap="round"/>
+      <text x="118" y="61" fill="#e8b84f" font-size="29" font-weight="800">GARDIENS</text>
+      <text x="118" y="108" fill="#fff" font-size="27" font-weight="600">Arijanet Murić · Amir Saipi · Mustafë Abdullahu</text>
+      <text x="118" y="143" fill="#91a0b8" font-size="20">Le retour de Murić dans le groupe</text>
+    </g>
+
+    <g transform="translate(78 570)">
+      <rect width="1044" height="232" rx="22" fill="#ffffff" fill-opacity=".045" stroke="#ffffff" stroke-opacity=".09"/>
+      <circle cx="57" cy="62" r="34" fill="#e8b84f" fill-opacity=".12" stroke="#e8b84f" stroke-width="2"/>
+      <path d="m57 37 24 10v18c0 17-10 28-24 35-14-7-24-18-24-35V47Z" fill="none" stroke="#e8b84f" stroke-width="4"/>
+      <text x="118" y="61" fill="#e8b84f" font-size="29" font-weight="800">DÉFENSEURS</text>
+      <text x="118" y="108" fill="#fff" font-size="26" font-weight="600">Amir Rrahmani · Andi Hoti · Albian Hajdari · Leard Sadriu</text>
+      <text x="118" y="148" fill="#fff" font-size="26" font-weight="600">Florian Hadergjonaj · Betim Fazliji · Mërgim Vojvoda</text>
+      <text x="118" y="188" fill="#fff" font-size="26" font-weight="600">Leart Paçarada</text>
+    </g>
+
+    <g transform="translate(78 823)">
+      <rect width="1044" height="256" rx="22" fill="#ffffff" fill-opacity=".045" stroke="#ffffff" stroke-opacity=".09"/>
+      <circle cx="57" cy="62" r="34" fill="#e8b84f" fill-opacity=".12" stroke="#e8b84f" stroke-width="2"/>
+      <circle cx="57" cy="62" r="16" fill="none" stroke="#e8b84f" stroke-width="4"/>
+      <path d="M23 62h68M57 28v68" stroke="#e8b84f" stroke-width="3"/>
+      <text x="118" y="61" fill="#e8b84f" font-size="29" font-weight="800">MILIEUX &amp; AILIERS</text>
+      <text x="118" y="108" fill="#fff" font-size="25" font-weight="600">Bledian Krasniqi · Leon Avdullahu · Hamza Muqaj</text>
+      <text x="118" y="147" fill="#fff" font-size="25" font-weight="600">Elvis Rexhbeçaj · Emir Sahiti · Bersant Celina</text>
+      <text x="118" y="186" fill="#fff" font-size="25" font-weight="600">Edon Zhegrova · Florent Muslija · Milot Rashica</text>
+      <text x="118" y="222" fill="#91a0b8" font-size="20">Première convocation d’Emir Sahiti sous Aurélien Quywix</text>
+    </g>
+
+    <g transform="translate(78 1100)">
+      <rect width="1044" height="142" rx="22" fill="#ffffff" fill-opacity=".045" stroke="#ffffff" stroke-opacity=".09"/>
+      <circle cx="57" cy="62" r="34" fill="#e8b84f" fill-opacity=".12" stroke="#e8b84f" stroke-width="2"/>
+      <path d="m40 45 17 17-17 17M59 45l17 17-17 17" fill="none" stroke="#e8b84f" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="118" y="57" fill="#e8b84f" font-size="29" font-weight="800">ATTAQUANTS</text>
+      <text x="118" y="103" fill="#fff" font-size="27" font-weight="600">Fisnik Asllani · Albion Rrahmani · Vedat Muriqi</text>
+    </g>
+
+    <text x="78" y="1284" fill="#56a2ff" font-size="25" font-weight="700">#Kosovo  #EURO2028  #Dardanët</text>
+    <text x="1122" y="1284" text-anchor="end" fill="#91a0b8" font-size="21">23 joueurs convoqués</text>
+  </g>
+</svg>
