@@ -5,7 +5,8 @@ const rankings = [
   { date: "Juil. 2026", rank: 69 },
   { date: "Nov. 2026", rank: 69 },
   { date: "Mars 2027", rank: 73 },
-  { date: "Juin 2027", rank: 66 },
+  { date: "18 juin 2027", rank: 66 },
+  { date: "30 juin 2027", rank: 65 },
 ];
 
 const chart = {
@@ -13,7 +14,7 @@ const chart = {
   right: 744,
   top: 35,
   bottom: 220,
-  minRank: 64,
+  minRank: 63,
   maxRank: 75,
 };
 
@@ -33,7 +34,7 @@ export default function ClassementFifaPage() {
           <p className="mt-2 text-sm text-slate-400">Plus la courbe monte, plus le Kosovo progresse au classement mondial.</p>
 
           <div className="mt-8 overflow-x-auto">
-            <svg viewBox="0 0 800 285" role="img" aria-label="Évolution du classement FIFA du Kosovo de juillet 2026 à juin 2027" className="min-w-[680px]">
+            <svg viewBox="0 0 800 285" role="img" aria-label="Évolution du classement FIFA du Kosovo de juillet 2026 au 30 juin 2027" className="min-w-[680px]">
               <defs>
                 <linearGradient id="rankingArea" x1="0" y1="0" x2="0" y2="1">
                   <stop offset="0%" stopColor="#a78bfa" stopOpacity="0.3"/>
@@ -61,18 +62,18 @@ export default function ClassementFifaPage() {
           </div>
           <div className="mt-2 flex items-center justify-between border-t border-white/[.07] pt-4 text-xs text-slate-500">
             <span>Début du mandat : 69e</span>
-            <span>Dernière mise à jour : 18 juin 2027</span>
+            <span>Dernière mise à jour : 30 juin 2027</span>
           </div>
         </section>
 
         <aside className="surface p-6">
           <Trophy className="text-violet-300" size={25}/>
-          <p className="mt-5 text-sm text-slate-400">Position au 18 juin 2027</p>
-          <p className="mt-1 text-5xl font-semibold">66e</p>
-          <div className="mt-6 flex items-center gap-2 text-sm text-emerald-300"><TrendingUp size={16}/>Gain de 7 places</div>
+          <p className="mt-5 text-sm text-slate-400">Position au 30 juin 2027</p>
+          <p className="mt-1 text-5xl font-semibold">65e</p>
+          <div className="mt-6 flex items-center gap-2 text-sm text-emerald-300"><TrendingUp size={16}/>Gain d’une place depuis le 18 juin</div>
           <div className="mt-6 border-t border-white/[.08] pt-5">
             <p className="text-xs uppercase tracking-wider text-slate-500">Meilleur classement</p>
-            <p className="mt-1 text-xl font-semibold text-violet-200">66e</p>
+            <p className="mt-1 text-xl font-semibold text-violet-200">65e</p>
           </div>
         </aside>
       </div>
