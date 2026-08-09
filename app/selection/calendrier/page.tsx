@@ -45,6 +45,7 @@ const calendars: Record<"2026" | "2027", CalendarYear> = {
       { date: "Sam. 2 oct. 2027 · 19:30", opponent: "Malte", venue: "E", score: "2 - 3", competition: "Qualifications Euro 2028", slug: "malte-kosovo-octobre-2027" },
       { date: "Mar. 5 oct. 2027 · 19:30", opponent: "Danemark", venue: "E", score: "3 - 0", competition: "Qualifications Euro 2028", slug: "danemark-kosovo-octobre-2027" },
       { date: "Jeu. 11 nov. 2027 · 19:30", opponent: "Lituanie", venue: "D", score: null, competition: "Qualifications Euro 2028" },
+      { date: "Mer. 17 nov. 2027 · 19:30", opponent: "Canada", venue: "D", score: null, competition: "Match amical" },
     ],
   },
 };

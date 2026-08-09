@@ -2,6 +2,23 @@ export type Article = { slug: string; title: string; summary: string; author: st
 
 export const newsItems: Article[] = [
   {
+    slug: "liste-kosovo-novembre-2027-lituanie-canada",
+    title: "Les 23 du Kosovo pour finir le travail",
+    summary: "Aurélien Quywix a dévoilé son groupe pour le match décisif contre la Lituanie et l’amical face au Canada. Saipi, Hajdari et Paçarada sont absents.",
+    author: "FM QuywiX",
+    date: "5 novembre 2027",
+    category: "Sélection nationale",
+    image: "/images/kosovo-liste-novembre-2027.svg",
+    body: [
+      "Aurélien Quywix a convoqué vingt-trois joueurs pour le dernier rassemblement international de l’année. Le Kosovo recevra la Lituanie le 11 novembre avec l’objectif de valider sa deuxième place dans le groupe J, avant d’accueillir le Canada en match amical le 17 novembre.",
+      "Le trio de gardiens évolue en l’absence d’Amir Saipi. Arijanet Murić demeure le numéro un et sera accompagné de Visar Bekaj, désormais à Oviedo, et de Mustafë Abdullahu. Bekaj retrouve ainsi la sélection pour cette double confrontation.",
+      "La défense est également privée d’Albian Hajdari. L’absence la plus longue concerne toutefois Leart Paçarada : touché aux ligaments croisés, le latéral gauche est forfait jusqu’à la fin de la saison. Ron Raçi, Ibrahim Drešević, Art Smakaj et Dion Gallapeni figurent parmi les solutions retenues autour du capitaine Amir Rrahmani.",
+      "Au milieu et sur les ailes, Quywix conserve l’ossature de sa campagne. Elvis Rexhbeçaj, Leon Avdullahu, Bledian Krasniqi et Veldin Hodža accompagneront notamment Edon Zhegrova, Milot Rashica, Bersant Celina, Florent Muslija et Emir Sahiti.",
+      "Fisnik Asllani, Vedat Muriqi et Albion Rrahmani composent le secteur offensif. La rencontre contre la Lituanie restera la priorité absolue : une victoire assurerait la deuxième place et maintiendrait l’espoir de terminer parmi les meilleurs deuxièmes des qualifications.",
+      "L’amical face au Canada permettra ensuite au staff d’offrir du temps de jeu et de tester de nouvelles associations contre une sélection athlétique. Ce rendez-vous doit aussi préparer la suite, sans détourner le groupe de son premier objectif : conclure proprement sa campagne européenne."
+    ]
+  },
+  {
     slug: "danemark-kosovo-qualification-euro-2028",
     title: "Le Danemark qualifié, le Kosovo doit sécuriser sa deuxième place",
     summary: "Battu 3-0 au Parken par un Danemark supérieur, le Kosovo abandonne la tête du groupe J. Il lui reste à valider la deuxième place contre la Lituanie.",
