@@ -2,6 +2,23 @@ export type Article = { slug: string; title: string; summary: string; author: st
 
 export const newsItems: Article[] = [
   {
+    slug: "danemark-kosovo-qualification-euro-2028",
+    title: "Le Danemark qualifié, le Kosovo doit sécuriser sa deuxième place",
+    summary: "Battu 3-0 au Parken par un Danemark supérieur, le Kosovo abandonne la tête du groupe J. Il lui reste à valider la deuxième place contre la Lituanie.",
+    author: "FM QuywiX",
+    date: "5 octobre 2027",
+    category: "Qualifications Euro 2028",
+    image: "/images/danemark-celebration-qualification-euro-2028.png",
+    body: [
+      "Le Danemark a confirmé son statut de favori du groupe J. Devant son public du Parken, la sélection danoise a dominé le Kosovo 3-0 et célébré sa qualification pour l’Euro 2028 au terme d’une prestation maîtrisée.",
+      "Rasmus Højlund a ouvert le score à la 22e minute sur un service de Mohamed Daramy. Le Kosovo a conservé davantage le ballon, mais sans parvenir à mettre suffisamment en difficulté la défense danoise. Les locaux ont imposé leur puissance, leur rythme et une pression constante sur le but d’Arijanet Murić.",
+      "Le Danemark a définitivement fait la différence après la pause. Højlund a inscrit son deuxième but à la 65e minute, servi par Mikkel Damsgaard, avant que Pierre-Emile Højbjerg ne marque à son tour cinq minutes plus tard sur une nouvelle passe de Damsgaard.",
+      "Les chiffres traduisent la supériorité danoise : 19 tirs à 11, 11 tentatives cadrées à 4 et 2,08 xG contre 0,93. Malgré 54 % de possession et 90 % de passes réussies, le Kosovo n’a jamais trouvé la précision nécessaire dans les trente derniers mètres. Højlund, auteur d’un doublé, a été élu homme du match avec une note de 8,24.",
+      "Au coup de sifflet final, les joueurs danois ont longuement célébré avec leurs supporters. Pour le Kosovo, cette défaite met fin à l’espoir de terminer en tête du groupe, mais la campagne reste ouverte. Les hommes d’Aurélien Quywix occupent la deuxième place avec 15 points avant leur dernière rencontre.",
+      "« Le Danemark a mérité sa qualification. Maintenant, notre objectif est très clair : valider cette deuxième place contre la Lituanie et tout faire pour terminer parmi les meilleurs deuxièmes », a déclaré Aurélien Quywix. Le sélectionneur attend une réaction immédiate et une prestation plus tranchante pour conclure les qualifications à Pristina."
+    ]
+  },
+  {
     slug: "malte-kosovo-relachement-quywix-2027",
     title: "Le Kosovo gagne à Malte, mais agace Quywix",
     summary: "Rapidement devant 3-0, le Kosovo s’impose finalement 3-2 à Malte. Un relâchement en seconde période qui a fortement contrarié Aurélien Quywix.",
