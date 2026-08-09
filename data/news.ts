@@ -2,6 +2,23 @@ export type Article = { slug: string; title: string; summary: string; author: st
 
 export const newsItems: Article[] = [
   {
+    slug: "zhegrova-triple-kosovo-slovenie-2027",
+    title: "Zhegrova en état de grâce, le Kosovo fait tomber la Slovénie",
+    summary: "Auteur d’un triplé magistral, Edon Zhegrova porte le Kosovo vers une victoire capitale 3-2 face à la Slovénie avant de quitter la pelouse sous les ovations.",
+    author: "FM QuywiX",
+    date: "28 septembre 2027",
+    category: "Qualifications Euro 2028",
+    image: "/images/zhegrova-ovation-kosovo-slovenie-2027.png",
+    body: [
+      "Le Kosovo a remporté un duel spectaculaire face à la Slovénie au Stadiumi Fadil Vokrri. Portés par un Edon Zhegrova phénoménal, les hommes d’Aurélien Quywix se sont imposés 3-2 et ont consolidé leur place en tête du groupe J.",
+      "La soirée a basculé en cinq minutes. Fisnik Asllani a servi Zhegrova à deux reprises, aux 30e et 35e minutes, et l’ailier kosovar a puni la défense slovène avec une efficacité clinique. Benjamin Šeško a rapidement réduit l’écart à la 37e, sur une passe de Marko Ilenič, maintenant le suspense avant la pause.",
+      "Le Kosovo a continué à imposer son rythme au retour des vestiaires. À la 73e minute, Veldin Hodža a trouvé Zhegrova, qui a signé son triplé et déclenché une immense clameur dans les tribunes. Sa prestation, récompensée par une note de 9,8, restera comme l’une des plus marquantes de cette campagne.",
+      "Cinq minutes plus tard, Aurélien Quywix a offert à son numéro 10 une sortie à la hauteur de son match. Tout le stade s’est levé pour l’ovationner, tandis que ses partenaires l’attendaient près de la ligne de touche pour l’applaudir et le féliciter.",
+      "Šeško a inscrit un second but slovène à la 79e minute, servi par Timi Elšnik, mais le Kosovo a résisté jusqu’au coup de sifflet final. Avec 63 % de possession, 14 tirs, 6 cadrés et 1,77 xG, les Kosovars ont affiché leur maîtrise tout en gardant leur sang-froid dans une fin de rencontre tendue.",
+      "Le Kosovo atteint désormais 12 points, à égalité avec le Danemark, vainqueur 6-1 en Lituanie, et conserve la première place du groupe. La Slovénie reste à 7 points : cette victoire donne donc un avantage précieux aux hommes de Quywix dans la lutte pour la qualification à l’Euro 2028."
+    ]
+  },
+  {
     slug: "danemark-rejoint-kosovo-tete-groupe-j-2027",
     title: "Le Danemark rejoint le Kosovo, la pression monte",
     summary: "Réunis dans le salon de leur hôtel, Aurélien Quywix et ses joueurs ont assisté à la victoire 3-1 du Danemark en Slovénie. Les Danois reviennent à hauteur du Kosovo à mi-parcours.",
