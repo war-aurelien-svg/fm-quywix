@@ -12,10 +12,10 @@ const table = [
 ];
 
 const euroQualifiersTable = [
-  { team: "Kosovo", j: 5, g: 4, n: 0, p: 1, bp: 11, bc: 7, pts: 12 },
+  { team: "Kosovo", j: 6, g: 5, n: 0, p: 1, bp: 14, bc: 9, pts: 15 },
   { team: "Danemark", j: 5, g: 4, n: 0, p: 1, bp: 18, bc: 4, pts: 12 },
   { team: "Slovénie", j: 5, g: 2, n: 1, p: 2, bp: 8, bc: 6, pts: 7 },
-  { team: "Malte", j: 4, g: 1, n: 0, p: 3, bp: 5, bc: 15, pts: 3 },
+  { team: "Malte", j: 5, g: 1, n: 0, p: 4, bp: 7, bc: 18, pts: 3 },
   { team: "Lituanie", j: 5, g: 0, n: 1, p: 4, bp: 4, bc: 14, pts: 1 },
 ];
 

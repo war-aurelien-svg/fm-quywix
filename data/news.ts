@@ -2,6 +2,23 @@ export type Article = { slug: string; title: string; summary: string; author: st
 
 export const newsItems: Article[] = [
   {
+    slug: "malte-kosovo-relachement-quywix-2027",
+    title: "Le Kosovo gagne à Malte, mais agace Quywix",
+    summary: "Rapidement devant 3-0, le Kosovo s’impose finalement 3-2 à Malte. Un relâchement en seconde période qui a fortement contrarié Aurélien Quywix.",
+    author: "FM QuywiX",
+    date: "2 octobre 2027",
+    category: "Qualifications Euro 2028",
+    image: "/images/quywix-agace-malte-kosovo-2027.png",
+    body: [
+      "Le Kosovo poursuit sa marche en avant dans le groupe J, mais cette victoire laissera un goût mitigé à Aurélien Quywix. À Ta’ Qali, sa sélection s’est imposée 3-2 face à Malte après avoir pourtant semblé tuer tout suspense avant même la demi-heure de jeu.",
+      "Emir Sahiti a ouvert le score dès la 16e minute sur un service d’Elvis Rexhbeçaj. Deux minutes plus tard, Vedat Muriqi a doublé la mise, avant qu’Edon Zhegrova ne porte le score à 3-0 à la 27e minute, servi par Milot Rashica. Le Kosovo maîtrisait alors totalement la rencontre et paraissait se diriger vers un large succès.",
+      "Avec 61 % de possession, 28 tirs, dont 15 cadrés, et 3,30 xG, les Kosovars ont largement dominé les débats. Leur première période a confirmé la richesse offensive d’une équipe capable d’accélérer et de faire la différence en quelques séquences.",
+      "Mais le visage du Kosovo a changé après la pause. Moins appliqués dans le replacement et trop confiants dans la gestion de leur avantage, les joueurs de Quywix ont laissé Malte reprendre espoir. Irvin Cardona a marqué aux 68e et 72e minutes, à chaque fois servi par Jodi Jones, ramenant soudainement les locaux à un seul but.",
+      "Ce relâchement a particulièrement agacé Aurélien Quywix sur le bord du terrain. Le sélectionneur n’a pas apprécié de voir son équipe abandonner le contrôle d’un match qu’elle avait parfaitement en main et se mettre inutilement en danger dans les dernières minutes. Ses consignes fermes et son attitude au coup de sifflet final ont rappelé que le résultat ne pouvait pas masquer cette baisse de concentration.",
+      "Le Kosovo a néanmoins tenu et empoche trois nouveaux points avant son déplacement décisif au Danemark. Désormais leader avec 15 points, il devra retrouver sa rigueur pendant toute la rencontre : face au favori danois, un tel relâchement pourrait coûter beaucoup plus cher."
+    ]
+  },
+  {
     slug: "zhegrova-triple-kosovo-slovenie-2027",
     title: "Zhegrova en état de grâce, le Kosovo fait tomber la Slovénie",
     summary: "Auteur d’un triplé magistral, Edon Zhegrova porte le Kosovo vers une victoire capitale 3-2 face à la Slovénie avant de quitter la pelouse sous les ovations.",
