@@ -20,7 +20,7 @@ export default async function SelectionArticlePage({ params }: { params: Promise
         <p className="mt-5 max-w-2xl text-lg leading-8 text-slate-400">{article.summary}</p>
         <div className="mt-6 flex items-center gap-3 text-sm"><span className="grid h-9 w-9 place-items-center rounded-full bg-violet-400/15 text-xs font-bold text-violet-200">QX</span><div><p className="font-semibold">{article.author}</p><p className="flex items-center gap-1 text-xs text-slate-500"><Clock3 size={12}/>{article.date}</p></div></div>
         <img src={article.image} alt={`Illustration de l’article : ${article.title}`} className="mt-8 h-auto w-full rounded-3xl bg-white/[.03] object-contain"/>
-        <div className="mx-auto mt-9 max-w-2xl space-y-6 text-[17px] leading-8 text-slate-300">{article.body.map(paragraph=><p key={paragraph}>{paragraph}</p>)}</div>
+        <div className="mx-auto mt-9 max-w-2xl space-y-6 text-[17px] leading-8 text-slate-300">{article.body.map(paragraph=>paragraph.startsWith("MISE À JOUR") ? <aside key={paragraph} className="rounded-2xl border border-amber-300/25 bg-amber-300/[.07] p-5 text-amber-50">{paragraph}</aside> : <p key={paragraph}>{paragraph}</p>)}</div>
       </article>
     </div>
   </main>;
