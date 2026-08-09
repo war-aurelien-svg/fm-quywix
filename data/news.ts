@@ -16,7 +16,8 @@ export const newsItems: Article[] = [
       "Le milieu reste particulièrement fourni. Elvis Rexhbeçaj, Leon Avdullahu et Bledian Krasniqi accompagneront Veldin Hodža, tandis qu’Emir Sahiti confirme sa place dans le projet. Edon Zhegrova, désormais à l’AS Monaco, Bersant Celina, Florent Muslija et Milot Rashica porteront l’essentiel de la créativité offensive.",
       "En attaque, Quywix s’appuie sur ses trois références : Fisnik Asllani, Albion Rrahmani et Vedat Muriqi. Avec 35 buts en 74 sélections, le meilleur buteur de l’histoire du Kosovo demeure le point d’appui majeur du secteur offensif.",
       "Leader du groupe avec neuf points après quatre journées, le Kosovo ouvrira cette trêve par un duel capital contre la Slovénie, son poursuivant direct. Le déplacement à Malte devra ensuite être négocié avec sérieux avant les retrouvailles avec un Danemark revanchard.",
-      "MISE À JOUR — 22 septembre 2027 : Andi Hoti doit déclarer forfait après avoir subi une luxation de l’épaule. Le défenseur de l’Eintracht Braunschweig quitte le rassemblement et est remplacé par Ron Raçi. Âgé de 25 ans, le défenseur de Hajduk compte une sélection avec le Kosovo et n’a encore inscrit aucun but."
+      "MISE À JOUR — 22 septembre 2027 : Andi Hoti doit déclarer forfait après avoir subi une luxation de l’épaule. Le défenseur de l’Eintracht Braunschweig quitte le rassemblement et est remplacé par Ron Raçi. Âgé de 25 ans, le défenseur de Hajduk compte une sélection avec le Kosovo et n’a encore inscrit aucun but.",
+      "MISE À JOUR — 25 septembre 2027 : Albian Hajdari quitte à son tour le rassemblement en raison d’une fracture de la cheville. Le défenseur du TSG Hoffenheim est remplacé par Ibrahim Drešević. Âgé de 30 ans, le joueur du FC Machida retrouve la sélection avec un bilan de 33 sélections et 1 but sous le maillot du Kosovo."
     ]
   },
   {

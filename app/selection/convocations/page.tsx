@@ -8,7 +8,7 @@ type Group = { title: string; short: string; players: Player[] };
 const p = (name: string, age: number, club: string, caps: number, goals: number): Player => ({ name, age, club, caps, goals });
 const autumn2027Groups: Group[] = [
   { title: "Gardiens", short: "G", players: [p("Arijanet Murić",28,"Ipswich",58,0),p("Amir Saipi",27,"Lugano",8,0),p("Mustafë Abdullahu",23,"Lokomotiva",0,0)] },
-  { title: "Défenseurs", short: "D", players: [p("Amir Rrahmani",33,"Parthenope",84,7),p("Ron Raçi",25,"Hajduk",1,0),p("Leard Sadriu",26,"Campionii FC Argeș",13,0),p("Albian Hajdari",24,"TSG Hoffenheim",19,1),p("Florian Hadergjonaj",33,"Alanyaspor",57,1),p("Art Smakaj",24,"LASK Linz",1,0),p("Leart Paçarada",32,"1. FC Heidenheim 1846",44,2),p("Mërgim Vojvoda",32,"Reims",83,3)] },
+  { title: "Défenseurs", short: "D", players: [p("Amir Rrahmani",33,"Parthenope",84,7),p("Ron Raçi",25,"Hajduk",1,0),p("Leard Sadriu",26,"Campionii FC Argeș",13,0),p("Ibrahim Drešević",30,"FC Machida",33,1),p("Florian Hadergjonaj",33,"Alanyaspor",57,1),p("Art Smakaj",24,"LASK Linz",1,0),p("Leart Paçarada",32,"1. FC Heidenheim 1846",44,2),p("Mërgim Vojvoda",32,"Reims",83,3)] },
   { title: "Milieux", short: "M", players: [p("Elvis Rexhbeçaj",29,"Valencia",28,3),p("Leon Avdullahu",23,"TSG Hoffenheim",20,1),p("Bledian Krasniqi",26,"Zürich",16,0),p("Veldin Hodža",24,"Rubin",7,0),p("Emir Sahiti",28,"Eintracht Braunschweig",8,1),p("Florent Muslija",29,"F.C. Hansa Rostock",51,5),p("Edon Zhegrova",28,"AS Monaco",61,12),p("Bersant Celina",31,"AIK",51,4),p("Milot Rashica",31,"Beşiktaş",78,15)] },
   { title: "Attaquants", short: "A", players: [p("Fisnik Asllani",25,"TSG Hoffenheim",24,8),p("Vedat Muriqi",33,"Mallorca",74,35),p("Albion Rrahmani",27,"Sparta Prague",19,6)] }
 ];
