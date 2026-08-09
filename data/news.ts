@@ -2,6 +2,23 @@ export type Article = { slug: string; title: string; summary: string; author: st
 
 export const newsItems: Article[] = [
   {
+    slug: "danemark-rejoint-kosovo-tete-groupe-j-2027",
+    title: "Le Danemark rejoint le Kosovo, la pression monte",
+    summary: "Réunis dans le salon de leur hôtel, Aurélien Quywix et ses joueurs ont assisté à la victoire 3-1 du Danemark en Slovénie. Les Danois reviennent à hauteur du Kosovo à mi-parcours.",
+    author: "FM QuywiX",
+    date: "25 septembre 2027",
+    category: "Qualifications Euro 2028",
+    image: "/images/quywix-joueurs-slovenie-danemark-2027.png",
+    body: [
+      "Le rassemblement du Kosovo a débuté devant un écran. Réunis autour d’Aurélien Quywix dans le grand salon de leur hôtel, les internationaux kosovars ont suivi ensemble le choc du groupe J entre la Slovénie et le Danemark, à trois jours de leur propre rendez-vous face aux Slovènes.",
+      "Le Danemark s’est imposé 3-1 à l’extérieur et a envoyé un message fort à ses concurrents. Cette victoire permet au favori de revenir à neuf points, soit le même total que le Kosovo après quatre rencontres. À mi-parcours des qualifications, les deux sélections se retrouvent ainsi au coude-à-coude en tête du groupe.",
+      "Pour Quywix et son staff, cette soirée constituait aussi une séance d’observation grandeur nature. Les joueurs ont suivi avec attention le pressing danois, la manière dont la Slovénie a tenté de ressortir sous pression et les espaces apparus au fil du match. Les échanges sont restés calmes, mais chacun a mesuré l’importance du duel à venir.",
+      "Dans l’autre rencontre de la soirée, Malte a remporté le match du bas de tableau en dominant la Lituanie 4-1. Longtemps dernière et lourdement battue lors des journées précédentes, la sélection maltaise décroche ses premiers points et dépasse son adversaire dans la lutte pour éviter la cinquième place.",
+      "Ces deux résultats resserrent les enjeux aux deux extrémités du groupe J. Le Kosovo garde son destin entre ses mains, mais ne dispose plus du moindre droit au relâchement. La Slovénie reste un concurrent direct, tandis que le Danemark confirme qu’il faudra compter avec lui jusqu’à la dernière journée.",
+      "Le 28 septembre à Pristina, les hommes de Quywix auront l’occasion de répondre sur le terrain. Une victoire contre la Slovénie leur permettrait de consolider leur position avant les déplacements à Malte puis au Danemark, qui concluront cette fenêtre internationale décisive."
+    ]
+  },
+  {
     slug: "liste-kosovo-septembre-octobre-2027",
     title: "Les 23 du Kosovo pour un tournant des qualifications",
     summary: "Aurélien Quywix a dévoilé son groupe pour recevoir la Slovénie puis se déplacer à Malte et au Danemark. Art Smakaj et Veldin Hodža figurent dans une liste qui mêle continuité et nouvelles options.",
