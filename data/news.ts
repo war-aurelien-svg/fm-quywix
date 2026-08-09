@@ -2,6 +2,23 @@ export type Article = { slug: string; title: string; summary: string; author: st
 
 export const newsItems: Article[] = [
   {
+    slug: "kosovo-lituanie-premiere-place-espoir-2027",
+    title: "Le Kosovo fait le travail et peut encore rêver de la première place",
+    summary: "Vainqueur 3-0 de la Lituanie avec un onze remanié, le Kosovo reprend la tête du groupe après l’énorme surprise du nul danois à Malte.",
+    author: "FM QuywiX",
+    date: "11 novembre 2027",
+    category: "Qualifications Euro 2028",
+    image: "/images/kosovo-lituanie-surprise-danemark-malte-2027.png",
+    body: [
+      "Le Kosovo a fait le travail. À Pristina, les hommes d’Aurélien Quywix ont dominé la Lituanie 3-0 et terminé leur campagne dans le groupe J avec 18 points. Une victoire nette, construite dès la première période malgré plusieurs changements notables dans l’équipe.",
+      "Quywix avait choisi de renouveler plusieurs postes et d’offrir des responsabilités à Ron Raçi, Leard Sadriu, Dion Gallapeni, Veldin Hodža, Bersant Celina et Albion Rrahmani. Le pari n’a pas perturbé le collectif : le Kosovo a contrôlé le ballon, imposé son rythme et rapidement enfermé son adversaire.",
+      "Le capitaine Amir Rrahmani a ouvert le score à la 22e minute sur un service de Ron Raçi. Sept minutes plus tard, Florent Muslija a doublé la mise après une passe de Florian Hadergjonaj. Juste avant la pause, Mërgim Vojvoda a inscrit le troisième but, servi à son tour par Muslija.",
+      "Avec 59 % de possession, 18 tirs contre 5, 9 tentatives cadrées et seulement 0,38 xG concédé, le Kosovo a maîtrisé la rencontre. La seconde période a permis au staff de procéder à plusieurs changements et de gérer l’avantage sans jamais réellement se mettre en danger.",
+      "La véritable énorme surprise est venue de Malte, où le Danemark a été tenu en échec 0-0. Ce résultat inattendu replace provisoirement le Kosovo en tête avec 18 points, devant les Danois, qui en comptent 16 avant de recevoir la Slovénie pour leur dernier match.",
+      "Le scénario est désormais limpide : si le Danemark ne s’impose pas à domicile contre la Slovénie, le Kosovo terminera premier du groupe J. En revanche, une victoire danoise lui offrirait la première place et renverrait le Kosovo au classement comparatif des meilleurs deuxièmes. Dans ce cas, il faudra attendre les derniers résultats des autres groupes pour connaître définitivement l’avenir de la sélection."
+    ]
+  },
+  {
     slug: "liste-kosovo-novembre-2027-lituanie-canada",
     title: "Les 23 du Kosovo pour finir le travail",
     summary: "Aurélien Quywix a dévoilé son groupe pour le match décisif contre la Lituanie et l’amical face au Canada. Saipi, Hajdari et Paçarada sont absents.",
@@ -20,19 +37,19 @@ export const newsItems: Article[] = [
   },
   {
     slug: "danemark-kosovo-qualification-euro-2028",
-    title: "Le Danemark qualifié, le Kosovo doit sécuriser sa deuxième place",
-    summary: "Battu 3-0 au Parken par un Danemark supérieur, le Kosovo abandonne la tête du groupe J. Il lui reste à valider la deuxième place contre la Lituanie.",
+    title: "Le Danemark prend une grosse option sur la première place",
+    summary: "Battu 3-0 au Parken par un Danemark supérieur, le Kosovo abandonne la tête du groupe J et doit désormais se concentrer sur la deuxième place.",
     author: "FM QuywiX",
     date: "5 octobre 2027",
     category: "Qualifications Euro 2028",
     image: "/images/danemark-celebration-qualification-euro-2028.png",
     body: [
-      "Le Danemark a confirmé son statut de favori du groupe J. Devant son public du Parken, la sélection danoise a dominé le Kosovo 3-0 et célébré sa qualification pour l’Euro 2028 au terme d’une prestation maîtrisée.",
+      "Le Danemark a confirmé son statut de favori du groupe J. Devant son public du Parken, la sélection danoise a dominé le Kosovo 3-0 et pris une très grosse option sur la première place au terme d’une prestation maîtrisée.",
       "Rasmus Højlund a ouvert le score à la 22e minute sur un service de Mohamed Daramy. Le Kosovo a conservé davantage le ballon, mais sans parvenir à mettre suffisamment en difficulté la défense danoise. Les locaux ont imposé leur puissance, leur rythme et une pression constante sur le but d’Arijanet Murić.",
       "Le Danemark a définitivement fait la différence après la pause. Højlund a inscrit son deuxième but à la 65e minute, servi par Mikkel Damsgaard, avant que Pierre-Emile Højbjerg ne marque à son tour cinq minutes plus tard sur une nouvelle passe de Damsgaard.",
       "Les chiffres traduisent la supériorité danoise : 19 tirs à 11, 11 tentatives cadrées à 4 et 2,08 xG contre 0,93. Malgré 54 % de possession et 90 % de passes réussies, le Kosovo n’a jamais trouvé la précision nécessaire dans les trente derniers mètres. Højlund, auteur d’un doublé, a été élu homme du match avec une note de 8,24.",
-      "Au coup de sifflet final, les joueurs danois ont longuement célébré avec leurs supporters. Pour le Kosovo, cette défaite met fin à l’espoir de terminer en tête du groupe, mais la campagne reste ouverte. Les hommes d’Aurélien Quywix occupent la deuxième place avec 15 points avant leur dernière rencontre.",
-      "« Le Danemark a mérité sa qualification. Maintenant, notre objectif est très clair : valider cette deuxième place contre la Lituanie et tout faire pour terminer parmi les meilleurs deuxièmes », a déclaré Aurélien Quywix. Le sélectionneur attend une réaction immédiate et une prestation plus tranchante pour conclure les qualifications à Pristina."
+      "Au coup de sifflet final, les joueurs danois ont longuement célébré avec leurs supporters. Cette victoire les place en position idéale pour conserver la tête du groupe. Pour le Kosovo, l’espoir de terminer premier s’éloigne fortement : les hommes d’Aurélien Quywix occupent désormais la deuxième place avec 15 points avant leur dernière rencontre.",
+      "« Il faut être lucides : après ce résultat, la première place ne dépend pratiquement plus de nous. Nous devons accepter la situation, battre la Lituanie, assurer cette deuxième place et ensuite espérer avoir fait suffisamment pour finir parmi les meilleurs deuxièmes », a déclaré Aurélien Quywix sur un ton fataliste. Le sélectionneur sait que son équipe n’a désormais plus le droit à l’erreur pour conclure les qualifications à Pristina."
     ]
   },
   {
