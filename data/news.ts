@@ -2,6 +2,23 @@ export type Article = { slug: string; title: string; summary: string; author: st
 
 export const newsItems: Article[] = [
   {
+    slug: "kosovo-qualifie-euro-2028-premiere-historique",
+    title: "Le Kosovo à l’Euro 2028 : une première historique",
+    summary: "Absent des terrains lors de la dernière soirée, le Kosovo a vu la Slovénie renverser le Danemark à Copenhague. Premier du groupe J, il disputera le premier Euro de son histoire.",
+    author: "FM QuywiX",
+    date: "14 novembre 2027",
+    category: "Qualifications Euro 2028",
+    image: "/images/pristina-fete-qualification-euro-2028.png",
+    body: [
+      "Le Kosovo n’avait aucun match à jouer, mais rarement une soirée internationale aura été suivie avec une telle tension dans le pays. Joueurs, staff et supporters avaient les yeux tournés vers Copenhague, en croisant les doigts pour un faux pas danois face à la Slovénie.",
+      "Le premier tournant est survenu dès la 29e minute avec l’expulsion de Victor Froholdt. En supériorité numérique, la Slovénie a ouvert le score par Benjamin Šeško à la 40e minute. Rasmus Højlund a égalisé quatre minutes plus tard et maintenu le Danemark dans la course à la première place jusqu’à la pause.",
+      "Le suspense a duré jusqu’à la 79e minute. Šeško a alors inscrit son deuxième but de la soirée et offert une victoire 2-1 à la Slovénie. Le Danemark n’est jamais parvenu à revenir, laissant définitivement la première place du groupe J au Kosovo.",
+      "Dans l’autre rencontre, la Lituanie a terminé sa campagne par un succès 3-1 contre Malte. Germán Valera a marqué aux 57e et 58e minutes, avant un troisième but d’Edgaras Dubickas à la 62e. Irvin Cardona a sauvé l’honneur maltais quatre minutes plus tard.",
+      "Avec 18 points, le Kosovo termine premier devant le Danemark et la Slovénie, tous deux à 16 points. Les hommes d’Aurélien Quywix décrochent ainsi directement leur billet pour l’Euro 2028, sans devoir attendre le classement des meilleurs deuxièmes.",
+      "À l’annonce du coup de sifflet final au Parken, la tension a laissé place à une immense explosion de joie. Les rues et les places de Pristina se sont remplies de drapeaux bleus et dorés. Pour la première fois de sa courte histoire, la nation du Kosovo participera à un Championnat d’Europe : une qualification qui appartient désormais à tout un peuple."
+    ]
+  },
+  {
     slug: "kosovo-lituanie-premiere-place-espoir-2027",
     title: "Le Kosovo fait le travail et peut encore rêver de la première place",
     summary: "Vainqueur 3-0 de la Lituanie avec un onze remanié, le Kosovo reprend la tête du groupe après l’énorme surprise du nul danois à Malte.",
