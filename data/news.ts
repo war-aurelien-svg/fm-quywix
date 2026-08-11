@@ -2,6 +2,23 @@ export type Article = { slug: string; title: string; summary: string; author: st
 
 export const newsItems: Article[] = [
   {
+    slug: "kosovo-canada-defaite-fete-euro-2027",
+    title: "Une lourde défaite, mais la fête continue avec les supporters",
+    summary: "Très remanié et encore marqué par les célébrations de sa qualification, le Kosovo s’incline 4-0 contre le Canada avant de communier longuement avec son public.",
+    author: "FM QuywiX",
+    date: "17 novembre 2027",
+    category: "Match amical",
+    image: "/images/kosovo-canada-communion-supporters-2027.png",
+    body: [
+      "Le résultat restera anecdotique dans une semaine devenue historique. Trois jours après avoir obtenu sa qualification pour l’Euro 2028, le Kosovo a terminé son année par une lourde défaite 4-0 contre le Canada au terme d’un match amical à l’ambiance très particulière.",
+      "Aurélien Quywix avait procédé à un turnover important. Mustafë Abdullahu a notamment débuté dans le but, tandis que Leard Sadriu, Art Smakaj, Veldin Hodža, Bledian Krasniqi et Bersant Celina ont obtenu du temps de jeu. L’équipe a conservé le ballon, mais a manqué de rythme, d’agressivité et de précision.",
+      "La fatigue physique et émotionnelle s’est rapidement fait sentir après plusieurs jours de célébrations. Le Canada en a profité avec une efficacité redoutable. Jonathan David a inscrit un triplé dès la première période, aux 7e, 12e et 41e minutes, servi successivement par Ismaël Koné, Theo Corbeanu et Niko Sigur.",
+      "Le Kosovo a tenté de réagir après la pause sans parvenir à convertir ses temps forts. Les locaux ont terminé avec 58 % de possession et 92 % de passes réussies, mais seulement trois de leurs douze tirs ont trouvé le cadre. À la 78e minute, J. Smith a ajouté un quatrième but canadien sur une passe d’Ali Ahmed.",
+      "Avec neuf tirs cadrés et 1,52 xG, le Canada a puni chaque relâchement et Jonathan David a logiquement été désigné homme du match avec une note de 9,53. Pour Quywix, cette rencontre rappelle le niveau d’exigence qui attendra sa sélection lors du Championnat d’Europe au Royaume-Uni.",
+      "Au coup de sifflet final, le score a toutefois été rapidement oublié. Les joueurs kosovars sont restés longuement devant les tribunes, bras autour des épaules, pour chanter, applaudir et communier avec leurs supporters. Le stade a célébré une dernière fois cette qualification historique : malgré la défaite, la soirée appartenait encore à tout un peuple."
+    ]
+  },
+  {
     slug: "kosovo-qualifie-euro-2028-premiere-historique",
     title: "Le Kosovo à l’Euro 2028 : une première historique",
     summary: "Absent des terrains lors de la dernière soirée, le Kosovo a vu la Slovénie renverser le Danemark à Copenhague. Premier du groupe J, il disputera le premier Euro de son histoire.",
