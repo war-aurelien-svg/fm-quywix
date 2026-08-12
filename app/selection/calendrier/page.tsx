@@ -20,7 +20,7 @@ type CalendarYear = {
   matches: CalendarMatch[];
 };
 
-const calendars: Record<"2026" | "2027", CalendarYear> = {
+const calendars: Record<"2026" | "2027" | "2028", CalendarYear> = {
   "2026": {
     eyebrow: "Ligue des Nations C · Groupe 3",
     description: "Campagne internationale 2026 du Kosovo.",
@@ -48,10 +48,18 @@ const calendars: Record<"2026" | "2027", CalendarYear> = {
       { date: "Mer. 17 nov. 2027 · 19:30", opponent: "Canada", venue: "D", score: "0 - 4", competition: "Match amical", slug: "kosovo-canada-novembre-2027" },
     ],
   },
+  "2028": {
+    eyebrow: "Préparation Euro 2028 · Matchs amicaux",
+    description: "Préparation du Kosovo pour son premier Championnat d’Europe.",
+    matches: [
+      { date: "Sam. 25 mars 2028 · 19:30", opponent: "République tchèque", venue: "E", score: null, competition: "Match amical" },
+      { date: "Mer. 29 mars 2028 · 19:30", opponent: "Islande", venue: "D", score: null, competition: "Match amical" },
+    ],
+  },
 };
 
 export default function SelectionCalendarPage() {
-  const [year, setYear] = useState<keyof typeof calendars>("2026");
+  const [year, setYear] = useState<keyof typeof calendars>("2028");
   const calendar = calendars[year];
 
   return <main className="min-h-screen bg-[radial-gradient(circle_at_85%_0,rgba(124,58,237,.18),transparent_30%),#090b10] px-5 py-7 text-slate-100 lg:px-12"><div className="mx-auto max-w-5xl"><SelectionHeader active="Calendrier"/><section className="surface mt-6 overflow-hidden"><header className="flex flex-col justify-between gap-4 border-b border-white/[.07] p-6 sm:flex-row sm:items-center"><div><p className="text-xs font-bold uppercase tracking-[.18em] text-violet-300">{calendar.eyebrow}</p><h2 className="mt-2 text-xl font-semibold">Calendrier du Kosovo · {year}</h2><p className="mt-1 text-sm text-slate-400">{calendar.description}</p></div><label className="rounded-xl border border-white/10 bg-white/[.04] px-3 py-2 text-sm"><span className="mr-2 text-slate-400">Année</span><select value={year} onChange={event => setYear(event.target.value as keyof typeof calendars)} className="bg-transparent font-semibold outline-none"><option className="bg-panel" value="2026">2026</option><option className="bg-panel" value="2027">2027</option></select></label></header>{calendar.matches.length > 0 ? <div className="divide-y divide-white/[.07]">{calendar.matches.map((match, index) => <MatchRow key={`${match.date}-${match.opponent}`} match={match} highlighted={index === 0}/>)}</div> : <div className="grid place-items-center px-6 py-16 text-center"><span className="grid h-12 w-12 place-items-center rounded-2xl bg-violet-500/15 text-violet-300"><CalendarDays size={24}/></span><h3 className="mt-4 text-lg font-semibold">Qualifications Euro 2028 · Groupe J</h3><p className="mt-2 max-w-md text-sm leading-6 text-slate-400">Le Kosovo est engagé dans le groupe J. Les rencontres seront affichées ici dès l’import des adversaires et des dates.</p></div>}</section><p className="mt-4 flex items-center gap-2 text-xs text-slate-500"><CalendarDays size={14}/>D = domicile · E = extérieur · Cliquez sur un match terminé pour ouvrir le compte-rendu.</p></div></main>;

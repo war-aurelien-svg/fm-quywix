@@ -2,6 +2,23 @@ export type Article = { slug: string; title: string; summary: string; author: st
 
 export const newsItems: Article[] = [
   {
+    slug: "liste-kosovo-mars-2028-tests-euro",
+    title: "Quywix ouvre son groupe aux tests avant l’Euro",
+    summary: "Le Kosovo affrontera la République tchèque et l’Islande avec plusieurs joueurs peu capés. La trêve sera aussi marquée par l’annonce de la retraite de Leart Paçarada.",
+    author: "FM QuywiX",
+    date: "16 mars 2028",
+    category: "Préparation Euro 2028",
+    image: "/images/kosovo-liste-mars-2028.svg",
+    body: [
+      "Aurélien Quywix a dévoilé les 23 joueurs retenus pour le premier rassemblement de l’année de l’Euro. Le Kosovo se déplacera en République tchèque le 25 mars avant de recevoir l’Islande le 29 mars, deux rencontres amicales destinées à préparer le grand rendez-vous britannique.",
+      "Les cadres restent nombreux avec Arijanet Murić, Amir Rrahmani, Mërgim Vojvoda, Elvis Rexhbeçaj, Edon Zhegrova, Milot Rashica et Vedat Muriqi. Mais cette liste traduit aussi la volonté du sélectionneur d’élargir ses options à quelques mois du tournoi.",
+      "Plusieurs joueurs encore peu expérimentés au niveau international auront ainsi l’occasion de convaincre. Mustafë Abdullahu ne compte qu’une sélection, Art Smakaj trois, Dion Gallapeni quatre, Ron Raçi et Hamza Muqaj cinq. Le défenseur de la Fiorentina Arnis Ademi, 21 ans, est convoqué sans avoir encore porté le maillot de l’équipe A.",
+      "Ces deux amicaux permettront au staff de tester de nouvelles associations sans renoncer à une ossature solide. Fisnik Asllani, désormais à Liverpool, accompagnera Vedat Muriqi en attaque, tandis que Leon Avdullahu poursuit sa progression au Bayern Munich.",
+      "Le rassemblement est malheureusement marqué par une nouvelle douloureuse. Après la grave blessure subie en début de saison, Leart Paçarada a décidé de mettre un terme à sa carrière de footballeur professionnel. Le latéral quitte la sélection avec 47 capes et deux buts sous le maillot du Kosovo.",
+      "Son coup franc direct d’environ 30 mètres inscrit en Lituanie restera l’une des images fortes de son parcours. Ce but avait offert une victoire 2-1 et trois points cruciaux au Kosovo sur la route de sa qualification historique. La préparation de l’Euro commence donc avec de nouveaux visages, mais aussi avec un hommage appuyé à l’un des artisans de cette aventure."
+    ]
+  },
+  {
     slug: "kosovo-canada-defaite-fete-euro-2027",
     title: "Une lourde défaite, mais la fête continue avec les supporters",
     summary: "Très remanié et encore marqué par les célébrations de sa qualification, le Kosovo s’incline 4-0 contre le Canada avant de communier longuement avec son public.",
