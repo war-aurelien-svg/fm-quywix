@@ -2,6 +2,91 @@ export type Article = { slug: string; title: string; summary: string; author: st
 
 export const newsItems: Article[] = [
   {
+    slug: "tirage-ligue-nations-b-2028-2029-kosovo",
+    title: "Ligue des nations B : un groupe relevé pour le Kosovo",
+    summary: "Promu en Division B, le Kosovo affrontera l’Autriche, la Croatie et la Turquie dans le groupe 4 lors de l’édition 2028/2029.",
+    author: "FM QuywiX",
+    date: "22 avril 2028",
+    category: "Ligue des Nations 2028/2029",
+    image: "/images/tirage-ligue-nations-b-2028-kosovo.svg",
+    body: [
+      "Le Kosovo connaît le programme de sa première campagne en Division B de la Ligue des nations. Le tirage au sort effectué le 22 avril a placé les Dardanët dans le groupe 4 avec l’Autriche, la Croatie et la Turquie.",
+      "Le niveau montera sensiblement après la promotion obtenue en Division C. La Croatie possède l’expérience des grandes compétitions, l’Autriche reste une sélection particulièrement structurée et la Turquie proposera un défi intense dans une double confrontation à forte charge émotionnelle.",
+      "Le Kosovo débutera à domicile contre la Turquie le 22 septembre, avant deux déplacements consécutifs en Croatie le 25 septembre puis en Autriche le 29 septembre. Cette séquence de trois rencontres en huit jours imposera une gestion particulièrement précise de l’effectif.",
+      "Les hommes d’Aurélien Quywix recevront ensuite la Croatie le 2 octobre. La campagne se terminera en novembre avec un déplacement en Turquie le 18, puis la réception de l’Autriche le 21 novembre.",
+      "Dans cette Division B, la première place offre la promotion tandis que le deuxième peut disputer un barrage pour monter. Le troisième est envoyé en barrage pour le maintien et le dernier est relégué. Pour le Kosovo, l’objectif initial sera donc de s’installer durablement à ce niveau sans s’interdire de regarder plus haut.",
+      "Cette nouvelle campagne commencera seulement trois mois après l’Euro 2028. Le tournoi britannique constituera une préparation de très haut niveau avant d’enchaîner face à trois adversaires européens reconnus, dans une saison qui confirmera la nouvelle dimension prise par la sélection."
+    ]
+  },
+  {
+    slug: "tirage-euro-2028-kosovo-groupe-b",
+    title: "Euro 2028 : un groupe de prestige pour le Kosovo",
+    summary: "Le Kosovo affrontera l’Allemagne, l’Angleterre et la République tchèque dans le groupe B. L’Écosse et le pays de Galles serviront de derniers tests avant le tournoi.",
+    author: "FM QuywiX",
+    date: "11 avril 2028",
+    category: "Euro 2028",
+    image: "/images/tirage-euro-2028-kosovo-groupe-b.svg",
+    body: [
+      "Le Kosovo connaît désormais ses trois adversaires pour le premier Championnat d’Europe de son histoire. Placés dans le groupe B lors du tirage de l’Euro 2028, les Dardanët retrouveront l’Allemagne, l’Angleterre et la République tchèque.",
+      "Le défi s’annonce immense face à deux anciens champions du monde. L’Allemagne et l’Angleterre partiront avec le statut de favorites du groupe, tandis que la République tchèque constitue un adversaire déjà bien connu. Le Kosovo vient justement de s’incliner 3-2 à Prague au terme d’un match amical très disputé.",
+      "Cette récente confrontation a montré que la sélection d’Aurélien Quywix pouvait rivaliser dans le jeu, mais aussi qu’elle devra mieux gérer les moments décisifs. Face à trois équipes capables d’imposer un rythme élevé, chaque détail et chaque point pourront peser dans la course aux huitièmes de finale.",
+      "Le calendrier du groupe prévoit trois rencontres au mois de juin contre l’Allemagne, l’Angleterre et la République tchèque. L’ordre précis, les dates, les horaires et les stades n’apparaissant pas encore dans les informations communiquées, ils seront ajoutés dès leur confirmation officielle.",
+      "Pour achever sa préparation, le Kosovo a choisi d’affronter deux nations britanniques. Un déplacement en Écosse et une réception du pays de Galles permettront au staff de préparer l’intensité, les duels et l’atmosphère particulière qui attendront l’équipe durant l’Euro organisé au Royaume-Uni.",
+      "Le pays de Galles, repêché comme nation hôte, et l’Écosse, qualifiée directement en remportant son groupe, offriront deux répétitions particulièrement cohérentes. Après les essais de mars, Quywix pourra resserrer son groupe et rapprocher son équipe-type de celle qui entrera dans l’histoire au mois de juin."
+    ]
+  },
+  {
+    slug: "euro-2028-les-24-qualifies",
+    title: "Euro 2028 : les 24 nations qualifiées sont désormais connues",
+    summary: "Les douze vainqueurs de groupe, les huit meilleurs deuxièmes et les trois vainqueurs des barrages seront accompagnés du pays de Galles, repêché en qualité de pays hôte.",
+    author: "FM QuywiX",
+    date: "29 mars 2028",
+    category: "Euro 2028",
+    image: "/images/euro-2028-24-qualifies.svg",
+    body: [
+      "Le plateau de l’Euro 2028 est désormais complet. Au lendemain des derniers barrages, les 24 nations qui participeront au Championnat d’Europe organisé au Royaume-Uni sont connues. Le Kosovo figure parmi elles après avoir remporté le groupe J et s’apprête à disputer le premier Euro de son histoire.",
+      "Les douze vainqueurs de groupe ont obtenu leur qualification directe : l’Espagne, la France, l’Angleterre, le Portugal, l’Italie, la Serbie, la Grèce, la Suisse, la Suède, le Kosovo, l’Écosse et l’Ukraine. Les Dardanët ont terminé devant le Danemark et la Slovénie avec 18 points.",
+      "Les huit meilleurs deuxièmes ont également validé directement leur billet. Il s’agit de la Turquie, de l’Irlande, de l’Allemagne, de la Croatie, de la Hongrie, de la République tchèque, du Danemark et des Pays-Bas. La Finlande, la Géorgie, la Norvège et le pays de Galles avaient dû passer par une autre voie ou attendre une décision complémentaire.",
+      "Les barrages ont attribué trois places supplémentaires. La Norvège a d’abord battu la Géorgie 3-0, puis dominé la Slovénie 2-1 en finale. La Macédoine du Nord a éliminé la Moldavie 2-0 avant de s’imposer sur le même score contre Israël. Enfin, la Bosnie a écarté la Roumanie 2-0 puis l’Albanie 1-0 pour rejoindre le tournoi.",
+      "Le dernier billet revient au pays de Galles. Seulement douzième du classement des meilleurs deuxièmes, la sélection galloise est repêchée en qualité de nation hôte afin d’assurer sa présence dans une compétition organisée au Royaume-Uni.",
+      "Le tableau final réunit donc plusieurs favoris habituels, quelques nations ambitieuses et deux histoires particulièrement fortes : celle du Kosovo, qualifié pour la première fois, et celle du pays de Galles, sauvé par son statut d’hôte. Les 24 sélections peuvent désormais se tourner vers la préparation du tournoi."
+    ]
+  },
+  {
+    slug: "kosovo-islande-mars-2028",
+    title: "Muriqi libère le Kosovo au terme d’un match à rebondissements",
+    summary: "Auteur d’un doublé, Vedat Muriqi offre au Kosovo une victoire 3-2 contre l’Islande grâce à un but décisif inscrit à la 81e minute.",
+    author: "FM QuywiX",
+    date: "29 mars 2028",
+    category: "Match amical",
+    image: "/images/kosovo-islande-match-mars-2028.png",
+    body: [
+      "Le Kosovo a conclu sa trêve de mars par une victoire spectaculaire devant son public. Quatre jours après la défaite cruelle concédée à Prague, les hommes d’Aurélien Quywix ont dominé l’Islande 3-2 au Stadiumi Fadil Vokrri grâce à un doublé de leur capitaine Vedat Muriqi.",
+      "L’Islande a pourtant frappé la première. Dès la 12e minute, Andri Guðjohnsen a ouvert le score sur une passe de Mikael Ellertsson. Le Kosovo a rapidement retrouvé ses esprits et Muriqi a égalisé à la 21e minute, parfaitement servi par Bersant Celina.",
+      "À la 39e minute, Emir Sahiti a récompensé la bonne réaction kosovare en donnant l’avantage aux siens sur un service de Milot Rashica. Le Kosovo a ainsi regagné les vestiaires devant au score après avoir cadré huit de ses onze tentatives au cours de la rencontre.",
+      "La sélection islandaise n’a cependant jamais renoncé. Stefán Þórðarson a remis les deux équipes à égalité à la 70e minute, servi par Hákon Haraldsson. Ce nouveau retour aurait pu faire douter une équipe encore marquée par la fin de match vécue en République tchèque.",
+      "Cette fois, le dernier mot est revenu au Kosovo. À la 81e minute, Dion Gallapeni a trouvé Vedat Muriqi, dont la finition a déclenché l’explosion du Fadil Vokrri. Avec deux buts et une note de 9,1, le meilleur buteur de l’histoire de la sélection a une nouvelle fois porté son équipe.",
+      "Le Kosovo termine ainsi cette trêve avec une défaite et une victoire, mais surtout plusieurs enseignements avant l’Euro. Malgré une possession légèrement inférieure et quinze tirs islandais, les Dardanët ont affiché une efficacité remarquable, créé la seule occasion franche du match et montré qu’ils savaient désormais répondre dans les moments de tension."
+    ]
+  },
+  {
+    slug: "republique-tcheque-kosovo-mars-2028",
+    title: "Cruelle fin de match pour le Kosovo à Prague",
+    summary: "Devant à la pause grâce à un doublé de Florent Muslija, le Kosovo s’incline 3-2 contre la République tchèque après un but encaissé dans le temps additionnel.",
+    author: "FM QuywiX",
+    date: "25 mars 2028",
+    category: "Match amical",
+    image: "/images/republique-tcheque-kosovo-match-mars-2028.png",
+    body: [
+      "Le Kosovo a longtemps cru tenir un résultat de prestige à Prague, avant de céder dans les toutes dernières secondes. Pour son premier match de préparation de l’année, la sélection d’Aurélien Quywix s’est inclinée 3-2 face à la République tchèque au terme d’une rencontre ouverte et riche en enseignements.",
+      "Les Tchèques ont ouvert le score dès la 13e minute par Patrik Schick, servi par Lukáš Provod. Loin de se désunir, le Kosovo a immédiatement réagi sous l’impulsion de Fisnik Asllani et Florent Muslija. Le premier a offert deux passes décisives au second, qui a égalisé à la 21e minute avant de donner l’avantage aux Dardanët à la 41e.",
+      "Avec 62 % de possession et 91 % de passes réussies, le Kosovo a montré sa capacité à contrôler le ballon à l’extérieur. Les deux équipes ont tiré à seize reprises et obtenu dix corners chacune, preuve d’un match particulièrement équilibré malgré des profils de jeu différents.",
+      "Le retour des vestiaires a toutefois été brutal. Václav Černý a égalisé dès la 46e minute sur une passe de Vasil Kušej. Le Kosovo a continué à produire du jeu, mais s’est montré un peu moins précis dans la dernière zone avec six tirs cadrés contre sept pour son adversaire.",
+      "Alors que le match semblait se diriger vers un nul logique, Pavel Bucha a inscrit le but décisif à la 90e+4 minute. Une issue cruelle pour les Kosovars, qui avaient pourtant généré 2,01 xG et rivalisé jusqu’au bout avec une sélection tchèque créditée de 2,34 xG.",
+      "Fisnik Asllani, auteur de deux passes décisives et noté 8,37, a été désigné homme du match. Malgré la défaite, son entente avec Muslija constitue une piste très encourageante à quelques mois de l’Euro. Quywix pourra poursuivre ses essais face à l’Islande le 29 mars avec la nécessité de mieux maîtriser les débuts de période et les fins de rencontre."
+    ]
+  },
+  {
     slug: "liste-kosovo-mars-2028-tests-euro",
     title: "Quywix ouvre son groupe aux tests avant l’Euro",
     summary: "Le Kosovo affrontera la République tchèque et l’Islande avec plusieurs joueurs peu capés. La trêve sera aussi marquée par l’annonce de la retraite de Leart Paçarada.",
