@@ -2,9 +2,43 @@ export type Article = { slug: string; title: string; summary: string; author: st
 
 export const newsItems: Article[] = [
   {
+    slug: "pays-de-galles-kosovo-amical-juin-2028",
+    title: "Au pays de Galles, le Kosovo termine sa préparation sur une défaite",
+    summary: "Pour son premier match dans l’un des pays hôtes de l’Euro, le Kosovo a ouvert le score avant de céder face au pays de Galles (3-1).",
+    author: "FM QuywiX",
+    date: "4 juin 2028",
+    category: "Préparation Euro 2028",
+    image: "/images/pays-de-galles-kosovo-juin-2028.png",
+    body: [
+      "Le Kosovo a achevé sa préparation à l’Euro 2028 par une défaite 3-1 face au pays de Galles au Parc y Scarlets. Cette rencontre marquait aussi les premiers pas des Dardanët dans l’un des pays hôtes de la compétition, six jours avant leur entrée en lice face à l’Allemagne.",
+      "Après une première période sans but, le Kosovo a parfaitement repris la rencontre. À la 47e minute, Milot Rashica a servi Edon Zhegrova, dont la finition a donné l’avantage aux hommes d’Aurélien Quywix. Avec 56 % de possession et une circulation propre, la sélection semblait alors en mesure de conclure sa préparation par un succès.",
+      "Le scénario s’est pourtant totalement inversé dans la dernière demi-heure. Neco Williams a égalisé à la 63e minute, puis Terry Taylor a placé les Gallois devant cinq minutes plus tard sur un service de Lewis Koumas. À la 87e, Liam Cullen a scellé le résultat, servi par l’homme du match Terry Taylor.",
+      "Le score apparaît sévère pour un Kosovo qui a tiré dix fois contre neuf, obtenu six corners et réussi 91 % de ses passes. Mais le pays de Galles s’est montré plus précis avec cinq tirs cadrés contre quatre et a surtout mieux négocié les moments décisifs.",
+      "Ce premier contact avec l’atmosphère britannique rappelle l’exigence qui attend désormais la sélection. Le temps des répétitions est terminé : le groupe va poursuivre son installation au Royaume-Uni et concentrer toute son énergie sur le premier match de l’histoire du Kosovo dans un Championnat d’Europe.",
+      "Aurélien Quywix dispose désormais de quelques jours pour tirer les derniers enseignements de cette préparation, retrouver de la fraîcheur et bâtir l’équipe qui défiera l’Allemagne le 10 juin."
+    ]
+  },
+  {
+    slug: "kosovo-ecosse-amical-mai-2028",
+    title: "Kosovo–Écosse : un nul et deux nouvelles alertes avant l’Euro",
+    summary: "Le Kosovo a répondu à l’ouverture du score écossaise grâce à Lirim Kastrati (1-1), mais les blessures de Vojvoda et Gallapeni assombrissent cette répétition générale.",
+    author: "FM QuywiX",
+    date: "29 mai 2028",
+    category: "Préparation Euro 2028",
+    image: "/images/kosovo-ecosse-mai-2028.png",
+    body: [
+      "Pour son avant-dernier match de préparation avant l’Euro 2028, le Kosovo a été tenu en échec par l’Écosse à l’Olympic Stadium Adem Jashari (1-1). Les Dardanët ont largement contrôlé le ballon avec 64 % de possession, sans parvenir à transformer cette maîtrise en victoire.",
+      "L’Écosse a ouvert le score à la 21e minute. Servi par Scott McTominay, Lewis Miller a puni la sélection kosovare sur l’une des premières situations dangereuses des visiteurs. La réaction a été rapide : treize minutes plus tard, Edon Zhegrova a trouvé Lirim Kastrati, dont l’égalisation a confirmé la réussite de son retour dans le groupe.",
+      "Le Kosovo a terminé avec neuf tirs contre huit et un avantage aux xG, 1,12 contre 0,62. Les hommes d’Aurélien Quywix ont toutefois manqué de précision avec seulement deux frappes cadrées, tandis que les Écossais ont obligé Arijanet Murić à rester vigilant à sept reprises.",
+      "Cette rencontre a surtout laissé deux alertes médicales. Mërgim Vojvoda souffre d’une foulure à la cheville, mais le staff estime qu’il pourra retrouver les terrains pour le début de l’Euro.",
+      "La situation est plus grave pour Dion Gallapeni. Victime d’une distension des ligaments du genou, il sera absent entre un et deux mois et doit déclarer forfait pour la compétition. Lumbardh Dellova, défenseur de 29 ans du CSKA Sofia crédité de 19 sélections et 3 buts, est rappelé pour le remplacer dans la liste des 26.",
+      "Après ce nul riche en enseignements, le Kosovo disputera sa dernière répétition le 4 juin au pays de Galles avant son entrée historique dans l’Euro face à l’Allemagne."
+    ]
+  },
+  {
     slug: "liste-kosovo-euro-2028-26-joueurs",
     title: "Euro 2028 : les 26 joueurs qui entreront dans l’histoire",
-    summary: "Aurélien Quywix a arrêté la liste définitive du Kosovo pour son premier Euro. Visar Bekaj, Andi Hoti, Hamza Muqaj et Lirim Kastrati quittent le groupe.",
+    summary: "La liste du Kosovo évolue à l’approche de l’Euro : blessé au dos, Veldin Hodža est forfait et remplacé par Lirim Kastrati.",
     author: "FM QuywiX",
     date: "21 mai 2028",
     category: "Euro 2028",
@@ -12,10 +46,13 @@ export const newsItems: Article[] = [
     body: [
       "La liste est désormais définitive. Aurélien Quywix a retenu les 26 joueurs qui représenteront le Kosovo lors de l’Euro 2028 au Royaume-Uni, le premier Championnat d’Europe de la courte histoire de la sélection.",
       "Quatre joueurs quittent la pré-liste dévoilée le 10 mai. Visar Bekaj n’est pas conservé parmi les gardiens, tandis qu’Andi Hoti est écarté en défense. Hamza Muqaj et Lirim Kastrati sont les deux autres absents au milieu et sur les ailes.",
-      "Arijanet Murić, Amir Saipi et Mustafë Abdullahu formeront le trio de gardiens. Devant eux, Quywix s’appuiera sur dix défenseurs, avec l’expérience d’Amir Rrahmani, Mërgim Vojvoda, Florent Hadergjonaj et Drešević, mais aussi la jeunesse de Ron Raçi, Arnis Ademi ou Dion Gallapeni.",
-      "Luan Simnica constitue la principale surprise. Encore sans sélection au moment de la pré-liste, le joueur de l’Almere City gagne sa place parmi les 26. Il accompagnera notamment Leon Avdullahu, Elvis Rexhbeçaj, Bledian Krasniqi et Veldin Hodža dans l’entrejeu.",
+      "Arijanet Murić, Amir Saipi et Mustafë Abdullahu formeront le trio de gardiens. Devant eux, Quywix s’appuiera sur dix défenseurs, avec l’expérience d’Amir Rrahmani, Mërgim Vojvoda, Florent Hadergjonaj et Drešević, mais aussi la jeunesse de Ron Raçi et Arnis Ademi.",
+      "Luan Simnica constitue la principale surprise. Encore sans sélection au moment de la pré-liste, le joueur de l’Almere City gagne sa place parmi les 26. Il accompagnera notamment Leon Avdullahu, Elvis Rexhbeçaj et Bledian Krasniqi dans l’entrejeu.",
       "Les principaux talents offensifs sont tous présents : Edon Zhegrova, Milot Rashica, Florent Muslija, Bersant Celina, Emir Sahiti et Fisnik Asllani. Vedat Muriqi, meilleur buteur de l’histoire du Kosovo avec 38 réalisations, conduira l’attaque avec Albion Rrahmani.",
-      "Le groupe poursuivra sa préparation contre l’Écosse le 29 mai puis au pays de Galles le 4 juin. Le Kosovo entrera ensuite dans l’histoire face à l’Allemagne le 10 juin, avant d’affronter l’Angleterre le 14 et la République tchèque le 19 juin."
+      "Le groupe poursuivra sa préparation contre l’Écosse le 29 mai puis au pays de Galles le 4 juin. Le Kosovo entrera ensuite dans l’histoire face à l’Allemagne le 10 juin, avant d’affronter l’Angleterre le 14 et la République tchèque le 19 juin.",
+      "MISE À JOUR — 28 mai 2028 : Bersant Celina et Veldin Hodža ont écourté l’entraînement du jour. Les examens ont révélé un hématome au genou pour Celina. Le milieu offensif devrait reprendre rapidement le chemin des terrains et sa participation à l’Euro n’est pas remise en cause. Le diagnostic est en revanche beaucoup plus lourd pour Veldin Hodža, victime d’une fracture de fatigue au bas du dos. Indisponible pour environ deux mois, il doit déclarer forfait pour l’Euro 2028. Aurélien Quywix a rappelé Lirim Kastrati en renfort. L’ailier de 29 ans, qui évolue à Malines, compte 19 sélections et 2 buts avec le Kosovo.",
+      "MISE À JOUR — 29 mai 2028 : le match de préparation contre l’Écosse a laissé deux nouvelles inquiétudes dans les rangs kosovars. Touché à la cheville, Mërgim Vojvoda souffre d’une foulure. Son retour est néanmoins attendu à temps pour le début de l’Euro.",
+      "Dion Gallapeni est beaucoup plus sévèrement atteint. Victime d’une distension des ligaments du genou, le défenseur sera indisponible entre un et deux mois et doit déclarer forfait pour la compétition. Lumbardh Dellova est appelé pour le remplacer dans la liste des 26. Le défenseur de 29 ans évolue au CSKA Sofia et totalise 19 sélections ainsi que 3 buts avec le Kosovo."
     ]
   },
   {

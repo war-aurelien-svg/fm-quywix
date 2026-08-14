@@ -54,8 +54,8 @@ const calendars: Record<"2026" | "2027" | "2028", CalendarYear> = {
     matches: [
       { date: "Sam. 25 mars 2028 · 19:30", opponent: "République tchèque", venue: "E", score: "3 - 2", competition: "Match amical", slug: "republique-tcheque-kosovo-mars-2028" },
       { date: "Mer. 29 mars 2028 · 19:30", opponent: "Islande", venue: "D", score: "3 - 2", competition: "Match amical", slug: "kosovo-islande-mars-2028" },
-      { date: "Lun. 29 mai 2028 · 19:30", opponent: "Écosse", venue: "D", score: null, competition: "Match amical · Préparation Euro 2028" },
-      { date: "Dim. 4 juin 2028 · 14:30", opponent: "Pays de Galles", venue: "E", score: null, competition: "Match amical · Préparation Euro 2028" },
+      { date: "Lun. 29 mai 2028 · 19:30", opponent: "Écosse", venue: "D", score: "1 - 1", competition: "Match amical · Préparation Euro 2028", slug: "kosovo-ecosse-mai-2028" },
+      { date: "Dim. 4 juin 2028 · 14:30", opponent: "Pays de Galles", venue: "E", score: "3 - 1", competition: "Match amical · Préparation Euro 2028", slug: "pays-de-galles-kosovo-juin-2028" },
       { date: "Sam. 10 juin 2028 · 15:00", opponent: "Allemagne", venue: "D", score: null, competition: "Euro 2028 · Groupe B", note: "Terrain neutre" },
       { date: "Mer. 14 juin 2028 · 14:00", opponent: "Angleterre", venue: "E", score: null, competition: "Euro 2028 · Groupe B", note: "Terrain neutre" },
       { date: "Lun. 19 juin 2028 · 20:00", opponent: "République tchèque", venue: "D", score: null, competition: "Euro 2028 · Groupe B", note: "Terrain neutre" },
