@@ -2,6 +2,40 @@ export type Article = { slug: string; title: string; summary: string; author: st
 
 export const newsItems: Article[] = [
   {
+    slug: "liste-kosovo-euro-2028-26-joueurs",
+    title: "Euro 2028 : les 26 joueurs qui entreront dans l’histoire",
+    summary: "Aurélien Quywix a arrêté la liste définitive du Kosovo pour son premier Euro. Visar Bekaj, Andi Hoti, Hamza Muqaj et Lirim Kastrati quittent le groupe.",
+    author: "FM QuywiX",
+    date: "21 mai 2028",
+    category: "Euro 2028",
+    image: "/images/kosovo-liste-euro-2028-26.svg",
+    body: [
+      "La liste est désormais définitive. Aurélien Quywix a retenu les 26 joueurs qui représenteront le Kosovo lors de l’Euro 2028 au Royaume-Uni, le premier Championnat d’Europe de la courte histoire de la sélection.",
+      "Quatre joueurs quittent la pré-liste dévoilée le 10 mai. Visar Bekaj n’est pas conservé parmi les gardiens, tandis qu’Andi Hoti est écarté en défense. Hamza Muqaj et Lirim Kastrati sont les deux autres absents au milieu et sur les ailes.",
+      "Arijanet Murić, Amir Saipi et Mustafë Abdullahu formeront le trio de gardiens. Devant eux, Quywix s’appuiera sur dix défenseurs, avec l’expérience d’Amir Rrahmani, Mërgim Vojvoda, Florent Hadergjonaj et Drešević, mais aussi la jeunesse de Ron Raçi, Arnis Ademi ou Dion Gallapeni.",
+      "Luan Simnica constitue la principale surprise. Encore sans sélection au moment de la pré-liste, le joueur de l’Almere City gagne sa place parmi les 26. Il accompagnera notamment Leon Avdullahu, Elvis Rexhbeçaj, Bledian Krasniqi et Veldin Hodža dans l’entrejeu.",
+      "Les principaux talents offensifs sont tous présents : Edon Zhegrova, Milot Rashica, Florent Muslija, Bersant Celina, Emir Sahiti et Fisnik Asllani. Vedat Muriqi, meilleur buteur de l’histoire du Kosovo avec 38 réalisations, conduira l’attaque avec Albion Rrahmani.",
+      "Le groupe poursuivra sa préparation contre l’Écosse le 29 mai puis au pays de Galles le 4 juin. Le Kosovo entrera ensuite dans l’histoire face à l’Allemagne le 10 juin, avant d’affronter l’Angleterre le 14 et la République tchèque le 19 juin."
+    ]
+  },
+  {
+    slug: "preliste-kosovo-euro-2028-30-joueurs",
+    title: "Euro 2028 : Quywix dévoile une pré-liste de 30 joueurs",
+    summary: "À un mois du premier Euro de l’histoire du Kosovo, Aurélien Quywix retient un groupe élargi de 30 joueurs avant les amicaux contre l’Écosse et le pays de Galles.",
+    author: "FM QuywiX",
+    date: "10 mai 2028",
+    category: "Euro 2028",
+    image: "/images/kosovo-preliste-euro-2028.svg",
+    body: [
+      "Aurélien Quywix a dévoilé une pré-liste de 30 joueurs pour préparer l’Euro 2028. Ce groupe élargi se retrouvera avant la réception de l’Écosse le 29 mai et le déplacement au pays de Galles le 4 juin, les deux dernières répétitions avant l’entrée en lice face à l’Allemagne.",
+      "Quatre gardiens figurent dans cette première sélection : Arijanet Murić, Amir Saipi, Visar Bekaj et Mustafë Abdullahu. Le staff devra donc effectuer au moins un choix dans ce secteur avant l’enregistrement de la liste définitive.",
+      "La défense rassemble onze joueurs, autour des cadres Amir Rrahmani, Mërgim Vojvoda et Florent Hadergjonaj. Albian Hajdari, Leard Sadriu, Andi Hoti, Ron Raçi, Arnis Ademi, Drešević, Art Smakaj et Dion Gallapeni complètent un secteur où la polyvalence pourrait peser lourd.",
+      "Au milieu et sur les ailes, Quywix conserve ses principaux créateurs avec Edon Zhegrova, Milot Rashica, Florent Muslija, Bersant Celina et Emir Sahiti. Luan Simnica, qui ne compte encore aucune sélection, représente la principale nouveauté de cette pré-liste, tandis que Lirim Kastrati retrouve une place dans le groupe élargi.",
+      "Fisnik Asllani, désormais à Liverpool et auteur de dix buts en 28 sélections, accompagne les options offensives. Vedat Muriqi reste la référence avec 38 buts sous le maillot national, tandis qu’Albion Rrahmani complète la liste des avant-centres.",
+      "Quatre joueurs devront quitter le groupe avant la liste définitive de 26. Les deux amicaux britanniques permettront au sélectionneur de départager les dernières places, d’évaluer les joueurs les moins expérimentés et de construire l’équipe qui affrontera l’Allemagne, l’Angleterre et la République tchèque au mois de juin."
+    ]
+  },
+  {
     slug: "tirage-ligue-nations-b-2028-2029-kosovo",
     title: "Ligue des nations B : un groupe relevé pour le Kosovo",
     summary: "Promu en Division B, le Kosovo affrontera l’Autriche, la Croatie et la Turquie dans le groupe 4 lors de l’édition 2028/2029.",
