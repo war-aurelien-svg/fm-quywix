@@ -2,6 +2,60 @@ export type Article = { slug: string; title: string; summary: string; author: st
 
 export const newsItems: Article[] = [
   {
+    slug: "republique-tcheque-kosovo-euro-2028",
+    title: "Vainqueur mais éliminé : le rêve du Kosovo s’arrête pour un but",
+    summary: "Le Kosovo renverse la République tchèque (2-1), mais la défaite 2-0 de l’Allemagne provoque une égalité à trois fatale aux Dardanët, quatrièmes du groupe.",
+    author: "FM QuywiX",
+    date: "19 juin 2028",
+    category: "Euro 2028",
+    image: "/images/republique-tcheque-kosovo-euro-2028.png",
+    body: [
+      "Le Kosovo a remporté le premier match de son histoire dans un Championnat d’Europe, mais cette victoire n’a pas suffi. Menés dès la 7e minute par la République tchèque, les Dardanët ont renversé la rencontre pour s’imposer 2-1 avant d’apprendre que le résultat de l’autre match les condamnait à la quatrième place du groupe B.",
+      "Patrik Schick a rapidement ouvert le score sur une passe de Lukáš Provod. Obligés de gagner, les hommes d’Aurélien Quywix ont refusé de céder malgré une première période compliquée et une équipe tchèque qui a conservé 57 % du ballon.",
+      "La réaction est venue après la pause sous l’impulsion de Mërgim Vojvoda. À la 52e minute, le piston kosovar a servi Bersant Celina pour l’égalisation. Puis, à la 79e, Vojvoda a délivré une deuxième passe décisive, cette fois pour Florent Muslija, qui a offert au Kosovo une victoire aussi historique que renversante.",
+      "Élu homme du match avec une note de 8,57, Vojvoda a symbolisé la détermination d’une sélection qui a parcouru 134 kilomètres et su convertir deux de ses quatre tirs cadrés. La République tchèque a pourtant créé davantage de danger, avec 17 tirs, trois occasions franches et 1,98 xG contre 1,07 pour le Kosovo.",
+      "Pendant quelques instants, les joueurs ont cru que ce succès pouvait ouvrir la porte du tour suivant. Mais l’Angleterre a battu l’Allemagne 2-0 dans l’autre rencontre. Ce résultat a placé l’Allemagne, la République tchèque et le Kosovo à égalité avec trois points, imposant le recours aux critères particuliers entre les trois sélections.",
+      "Dans ce mini-classement, le Kosovo échoue pour un seul but. Une troisième réalisation face aux Tchèques aurait changé son destin. Si l’Allemagne n’avait pas perdu, les Dardanët auraient terminé troisièmes devant la République tchèque grâce à leur victoire dans la confrontation directe. La défaite allemande a paradoxalement créé l’égalité à trois qui leur est fatale.",
+      "Le Kosovo quitte donc son premier Euro à la quatrième place, avec trois points, une victoire et une immense frustration. Mais cette campagne restera historique : la sélection a découvert le plus haut niveau continental, résisté à l’Angleterre et à l’Allemagne, puis remporté son dernier match avec caractère. La déception est profonde, mais cette première aventure doit désormais servir de fondation."
+    ]
+  },
+  {
+    slug: "angleterre-kosovo-euro-2028",
+    title: "Murić héroïque, mais le Kosovo cède face à l’Angleterre",
+    summary: "Malgré l’égalisation de Kastrati et un nouveau penalty repoussé par Murić, le Kosovo s’incline 3-1 à Wembley et jouera sa survie contre les Tchèques.",
+    author: "FM QuywiX",
+    date: "14 juin 2028",
+    category: "Euro 2028",
+    image: "/images/angleterre-kosovo-euro-2028.png",
+    body: [
+      "Le Kosovo a subi une deuxième défaite dans le groupe B de l’Euro 2028, battu 3-1 par l’Angleterre à Wembley. Face à l’un des favoris du tournoi, les hommes d’Aurélien Quywix ont résisté avec courage et ont une nouvelle fois pu compter sur un excellent Arijanet Murić.",
+      "Harry Kane a ouvert le score à la 17e minute, mais le Kosovo n’a pas renoncé. À la 31e, Leon Avdullahu a trouvé Lirim Kastrati, qui a égalisé et inscrit son deuxième but en deux rencontres après celui marqué contre l’Écosse. L’espoir n’a toutefois duré que quatre minutes : Bukayo Saka a rapidement redonné l’avantage aux Anglais.",
+      "La domination anglaise a ensuite été considérable. Les Three Lions ont terminé avec 64 % de possession, 40 tirs, 16 tentatives cadrées, 16 corners et 4,90 xG. Le Kosovo n’a cadré que cinq de ses sept frappes, mais a continué à défendre avec solidarité autour de son gardien.",
+      "À la 70e minute, Murić a repoussé un penalty de Harry Kane. Après avoir déjà arrêté celui de Florian Wirtz face à l’Allemagne, le gardien kosovar s’est offert un deuxième penalty stoppé en deux matchs de Championnat d’Europe. Sa note de 8,5 récompense une nouvelle prestation de très haut niveau.",
+      "Morgan Rogers a finalement inscrit le troisième but anglais à la 86e minute sur une passe de Lewis Hall. Le score est lourd, mais il aurait pu l’être davantage sans les nombreuses interventions de Murić face à la pression constante des joueurs anglais.",
+      "Dans l’autre rencontre décisive du groupe, la République tchèque a battu l’Allemagne 2-1. L’Angleterre compte désormais six points, tandis que l’Allemagne et les Tchèques en possèdent trois. Le Kosovo reste à zéro : il devra impérativement battre la République tchèque lors de la dernière journée pour conserver un espoir de qualification, tout en surveillant la différence de buts et le résultat de l’autre match.",
+      "Le rendez-vous du 19 juin devient ainsi une véritable finale pour les Dardanët. Après avoir affronté deux géants européens, ils n’ont plus le droit à l’erreur s’ils veulent prolonger leur première aventure dans un Euro."
+    ]
+  },
+  {
+    slug: "kosovo-allemagne-premier-match-euro-2028",
+    title: "Le rêve européen du Kosovo débute face à une Allemagne trop forte",
+    summary: "Pour le premier match de son histoire dans un Euro, le Kosovo s’incline 3-0 malgré un penalty repoussé par Arijanet Murić.",
+    author: "FM QuywiX",
+    date: "10 juin 2028",
+    category: "Euro 2028",
+    image: "/images/kosovo-allemagne-euro-2028.png",
+    body: [
+      "Le Kosovo a vécu à Hampden Park une journée qui restera historique. Pour la première rencontre de son histoire dans un Championnat d’Europe, la sélection d’Aurélien Quywix a affronté l’Allemagne, l’un des grands favoris du groupe B. Le résultat, une défaite 3-0, rappelle la difficulté du défi sans effacer la portée de cette première apparition.",
+      "Les Dardanët ont résisté pendant une grande partie de la première période grâce à Arijanet Murić. À la 23e minute, le gardien kosovar a repoussé le penalty de Florian Wirtz et fait exulter les nombreux supporters bleus présents à Glasgow. Auteur de dix arrêts et crédité d’une note de 7,9, Murić a longtemps retardé l’échéance.",
+      "La pression allemande a néanmoins fini par produire ses effets. À la 40e minute, Karim Adeyemi a ouvert le score sur une passe de Kai Havertz. L’attaquant a frappé une seconde fois juste avant la pause, cette fois servi par Jamal Musiala, donnant à l’Allemagne un avantage particulièrement difficile à renverser.",
+      "Florian Wirtz a définitivement scellé le résultat à la 68e minute sur un service de Nick Woltemade. L’Allemagne a terminé avec 17 tirs, dont 10 cadrés, 13 corners et 2,72 xG. Le Kosovo n’a pu répondre que par quatre tentatives et une seule frappe cadrée, pour 0,29 xG.",
+      "Malgré l’écart, le Kosovo a conservé 47 % du ballon et réussi 88 % de ses passes. Mais la vitesse d’exécution, la qualité des déplacements et la profondeur du banc allemand ont progressivement étouffé les hommes de Quywix. Adeyemi, auteur d’un doublé, a logiquement été désigné homme du match.",
+      "Dans l’autre rencontre du groupe B, l’Angleterre a parfaitement lancé son tournoi en dominant la République tchèque 5-1. Ce large succès place déjà les Anglais en tête et accentue la pression sur le Kosovo avant la deuxième journée.",
+      "Cette première page européenne se referme sur une défaite, mais l’aventure ne fait que commencer. Le Kosovo devra rapidement récupérer avant d’affronter l’Angleterre le 14 juin, puis la République tchèque lors d’un dernier match qui pourrait devenir décisif dans la course à la qualification."
+    ]
+  },
+  {
     slug: "pays-de-galles-kosovo-amical-juin-2028",
     title: "Au pays de Galles, le Kosovo termine sa préparation sur une défaite",
     summary: "Pour son premier match dans l’un des pays hôtes de l’Euro, le Kosovo a ouvert le score avant de céder face au pays de Galles (3-1).",
