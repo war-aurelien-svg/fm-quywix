@@ -1,10 +1,10 @@
 import { ChevronLeft, Clock3 } from "lucide-react";
 import { SelectionHeader } from "../../../../components/selection-header";
-import { newsItems } from "../../../../data/news";
+import { getArticle } from "../../../../lib/content";
 
 export default async function SelectionArticlePage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
-  const article = newsItems.find(item => item.slug === slug);
+  const article = await getArticle(slug);
 
   if (!article) {
     return <main className="grid min-h-screen place-items-center bg-ink text-white"><a href="/selection/actualites" className="text-violet-300">Article introuvable — Retour aux actualités</a></main>;
