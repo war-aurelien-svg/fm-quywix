@@ -19,10 +19,14 @@ async function relay(request: NextRequest, context: { params: Promise<{ path: st
   }
 
   const { path } = await context.params;
-  const target = new URL(`${supabaseUrl.replace(/\/$/, "")}/${path.join("/")}`);
+  const cleanUrl = supabaseUrl.match(/https:\/\/[a-z0-9]+\.supabase\.co/i)?.[0] || supabaseUrl.trim();
+  const cleanKey = supabaseKey.match(/sb_publishable_[A-Za-z0-9_-]+/)?.[0]
+    || supabaseKey.match(/eyJ[A-Za-z0-9_-]+\.[A-Za-z0-9_-]+\.[A-Za-z0-9_-]+/)?.[0]
+    || supabaseKey.trim();
+  const target = new URL(`${cleanUrl.replace(/\/$/, "")}/${path.join("/")}`);
   target.search = request.nextUrl.search;
 
-  const headers = new Headers({ apikey: supabaseKey });
+  const headers = new Headers({ apikey: cleanKey });
   for (const name of forwardedRequestHeaders) {
     const value = request.headers.get(name);
     if (value) headers.set(name, value);
