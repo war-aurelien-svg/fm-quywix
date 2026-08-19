@@ -37,9 +37,16 @@ async function relay(request: NextRequest, context: { params: Promise<{ path: st
       body: hasBody ? await request.arrayBuffer() : undefined,
       cache: "no-store",
     });
-  } catch {
+  } catch (error) {
+    const cause = error instanceof Error && error.cause && typeof error.cause === "object"
+      ? (error.cause as { code?: string }).code
+      : undefined;
     return NextResponse.json(
-      { message: "Le serveur du site ne parvient pas à joindre Supabase." },
+      {
+        message: "Le serveur du site ne parvient pas à joindre Supabase.",
+        reason: error instanceof Error ? error.message : "Erreur réseau inconnue",
+        code: cause || null,
+      },
       { status: 502 },
     );
   }
